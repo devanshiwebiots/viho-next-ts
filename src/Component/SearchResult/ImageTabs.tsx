@@ -2,7 +2,7 @@ import { PortfolioTitle } from '@/Constant';
 import PagesSort from './Pages';
 import React, { Fragment, useState, useEffect } from 'react';
 import { Col, Row, Card, CardBody } from 'reactstrap';
-import Lightbox from 'react-18-image-lightbox';
+// import Lightbox from 'react-18-image-lightbox';
 import { AssetsImagePath, Javascript } from '@/Constant';
 import Image from 'next/image';
 
@@ -64,7 +64,7 @@ const PhotosTab = () => {
         )}
       </Row>
       <PagesSort />
-      {photoIndex.isOpen && (
+      {/* {photoIndex.isOpen && (
         <Lightbox
           mainSrc={require(`${AssetsImagePath}/${imagess[photoIndex.index]}`)}
           nextSrc={require(`${AssetsImagePath}/${imagess[(photoIndex.index + 1) % imagess.length]}`)}
@@ -74,7 +74,7 @@ const PhotosTab = () => {
           onMovePrevRequest={onMovePrev}
           onMoveNextRequest={onMoveNext}
         />
-      )}
+      )} */}
     </Fragment>
   );
 };

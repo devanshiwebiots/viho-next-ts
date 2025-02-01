@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import { Container, Modal, ModalBody, ModalHeader, ModalFooter, Row, Button } from 'reactstrap';
 import { Configuration, CopyText, Cancel } from '../../Constant';
 import { ConfigDB } from '@/config/ThemeConfig';
-import { CopyToClipboard } from 'react-copy-to-clipboard';
+// import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { toast } from 'react-toastify';
 
 const ConfigurationClass = ({ toggle, modal }: any) => {
@@ -54,7 +54,7 @@ const ConfigurationClass = ({ toggle, modal }: any) => {
           </Container>
         </ModalBody>
         <ModalFooter>
-          <CopyToClipboard text={JSON.stringify(configDB)}>
+          {/* <CopyToClipboard text={JSON.stringify(configDB)}>
             <Button
               color='primary'
               className='notification'
@@ -65,7 +65,7 @@ const ConfigurationClass = ({ toggle, modal }: any) => {
               }>
               {CopyText}
             </Button>
-          </CopyToClipboard>
+          </CopyToClipboard> */}
           <Button color='secondary' onClick={toggle}>
             {Cancel}
           </Button>

@@ -1,6 +1,6 @@
 "use client";
 import React, { Component } from "react";
-import { unstable_batchedUpdates } from "react-redux/es/utils/reactBatchedUpdates";
+import { unstable_batchedUpdates } from "react-dom";
 interface Props {
   children: React.ReactNode;
 }

@@ -1,12 +1,11 @@
 import { AssetsImagePath, Javascript } from '@/Constant';
-import { RootState, useAppDispatch } from '@/Redux/ReduxStore';
+import { RootState, useAppDispatch, useAppSelector } from '@/Redux/ReduxStore';
 import { ToggleSideBarIn } from '@/Redux/Slices/HeaderSlice';
 import Image from 'next/image';
 import { AlignCenter } from 'react-feather';
-import { useSelector } from 'react-redux/es/hooks/useSelector';
 
 const LeftHeader = () => {
-  const {logoToggle} = useSelector((state:RootState)=>state.headerSlice)
+  const { logoToggle } = useAppSelector((state: RootState) => state.headerSlice);
   
   const dispatch = useAppDispatch();
   const toggleSidebar = () => {

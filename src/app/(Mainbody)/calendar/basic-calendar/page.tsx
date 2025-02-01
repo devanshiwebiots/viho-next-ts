@@ -3,7 +3,7 @@
 import myEventsList from '../../../../Component/Calender/Events';
 import React, { Fragment } from 'react';
 import { Card, CardBody, Col, Container, Row } from 'reactstrap';
-import { Calendar, momentLocalizer, Views, View } from 'react-big-calendar';
+// import { Calendar, momentLocalizer, Views, View } from 'react-big-calendar';
 import moment from 'moment';
 import { BasicCalendars } from '@/Constant';
 import Breadcrumbs from '@/CommonComponents/BreadCrumb';
@@ -21,7 +21,7 @@ const CalenderContain = () => {
             <Card>
               <CardHeaderCommon title={BasicCalendars} />
               <CardBody>
-                <Calendar localizer={localizer} scrollToTime={new Date(1970, 1, 1, 6)} defaultDate={new Date(2023, 2, 12)} onSelectEvent={(event) => alert(event.title)} views={allViews} events={myEventsList} showMultiDayTimes step={60} startAccessor='start' endAccessor='end' />
+                {/* <Calendar localizer={localizer} scrollToTime={new Date(1970, 1, 1, 6)} defaultDate={new Date(2023, 2, 12)} onSelectEvent={(event) => alert(event.title)} views={allViews} events={myEventsList} showMultiDayTimes step={60} startAccessor='start' endAccessor='end' /> */}
               </CardBody>
             </Card>
           </Col>

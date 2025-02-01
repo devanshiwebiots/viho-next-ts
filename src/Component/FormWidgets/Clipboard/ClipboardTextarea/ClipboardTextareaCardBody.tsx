@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Button, CardBody, Input } from 'reactstrap';
-import CopyToClipboard from 'react-copy-to-clipboard';
+// import CopyToClipboard from 'react-copy-to-clipboard';
 import { Copy, Cut, CutCopyFromTextarea, clipBoardTextParagraph } from '@/Constant';
 
 const ClipboardTextareaCardBody = () => {
@@ -11,7 +11,7 @@ const ClipboardTextareaCardBody = () => {
         <p className='card-description'>{CutCopyFromTextarea}</p>
         <Input type='textarea' rows='1' spellCheck='false' value={clipBoardValues.value} onChange={({ target: { value } }) => setClipBoardValues({ value, copied: false })} />
         <div className='mt-3'>
-          <CopyToClipboard text={clipBoardValues.value} onCopy={(value) => setClipBoardValues({ value, copied: true })}>
+          {/* <CopyToClipboard text={clipBoardValues.value} onCopy={(value) => setClipBoardValues({ value, copied: true })}>
             <Button className='btn-clipboard  me-2' color='primary'>
               <i className='fa fa-copy'></i> {Copy}
             </Button>
@@ -20,7 +20,7 @@ const ClipboardTextareaCardBody = () => {
             <Button className='btn-clipboard-cut' color='secondary'>
               <i className='fa fa-cut'></i> {Cut}
             </Button>
-          </CopyToClipboard>
+          </CopyToClipboard> */}
         </div>
       </div>
     </CardBody>

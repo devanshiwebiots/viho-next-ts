@@ -1,6 +1,6 @@
 //@ts-nocheck
 import React from 'react';
-import { CopyToClipboard } from 'react-copy-to-clipboard';
+// import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { ToastContainer, toast } from 'react-toastify';
 import { Container, Row, Label, Input, Button } from 'reactstrap';
 
@@ -42,7 +42,7 @@ const IconMarkUp = ({ iTag, icons }: any) => {
               <div className='form-inline'>
                 <div className='mb-0 form-group'>
                   <Input type='text' className='inp-val m-r-10' defaultValue={iTag.iTag} id='input_copy' />
-                  <CopyToClipboard text={iTag.iTag}>
+                  {/* <CopyToClipboard text={iTag.iTag}>
                     <Button
                       color="primary"
                       className="notification"
@@ -54,7 +54,7 @@ const IconMarkUp = ({ iTag, icons }: any) => {
                     >
                       Copy text
                     </Button>
-                  </CopyToClipboard>
+                  </CopyToClipboard> */}
                 </div>
               </div>
             </div>

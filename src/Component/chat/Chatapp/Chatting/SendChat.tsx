@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Button, Col, Input, InputGroup, Row } from "reactstrap";
-import data from "@emoji-mart/data";
-import Picker from "@emoji-mart/react";
+import EmojiPicker from "emoji-picker-react";
 import { AssetsImagePath, Send } from "@/Constant";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
@@ -42,27 +41,18 @@ const SendChat = () => {
     }
   };
   return (
-    <div className='chat-message clearfix'>
+    <div className="chat-message clearfix">
       <Row>
-        <div>
-          {showEmojiPicker ? (
-            <Picker
-              data={data}
-              onEmojiSelect={(e: any) => {
-                addEmoji(e.native);
-              }}
-            />
-          ) : null}
-        </div>
-        <Col xl='12' className='d-flex'>
+        <div>{showEmojiPicker ? <EmojiPicker onEmojiClick={({ emoji }) => addEmoji(emoji)} /> : null}</div>
+        <Col xl="12" className="d-flex">
           <div className='smiley-box bg-primary'>
             <div className='picker' onClick={() => setShowEmojiPicker(!showEmojiPicker)}>
               <Image width={28} height={29} src={`${AssetsImagePath}/smiley.png`} alt='smiley' />
             </div>
           </div>
-          <InputGroup className='text-box'>
-            <Input type='text' className='input-txt-bx' placeholder='Type a message......' value={messageInput} onChange={(e) => handleMessageChange(e.target.value)} />
-            <Button className='input-group-text' color='primary' onClick={handleMessagePress}>
+          <InputGroup className="text-box">
+            <Input type="text" className="input-txt-bx" placeholder="Type a message......" value={messageInput} onChange={(e) => handleMessageChange(e.target.value)} />
+            <Button className="input-group-text" color="primary" onClick={handleMessagePress}>
               {Send}
             </Button>
           </InputGroup>
