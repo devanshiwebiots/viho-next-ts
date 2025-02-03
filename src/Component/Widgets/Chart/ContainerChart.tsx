@@ -3,10 +3,10 @@ import ChartWidgets from './ChartWidget'
 import BarChartsWidgets from './BarChartWidgets'
 import { Row } from 'reactstrap'
 import LiveChart from './LiveChart'
-import { TurnoverChart } from '../WidgetApexChartData'
 import MonthlySaleChart from './MonthlySaleChart'
 import UsesChart from './UsesChart'
 import BrowserChartWidgets from './BrowserChartWidgets'
+import TurnoverChartComponent from './TurnoverChart'
 
 const ContainerChart = () => {
   return (
@@ -15,7 +15,7 @@ const ContainerChart = () => {
         <BarChartsWidgets />
         <Row>
           <LiveChart />
-          <TurnoverChart />
+          <TurnoverChartComponent />
           <MonthlySaleChart />
           <UsesChart />
         </Row>

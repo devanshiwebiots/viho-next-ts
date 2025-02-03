@@ -1,7 +1,5 @@
 import ConfigDB from '@/config/ThemeConfig';
 import { ApexOptions } from 'apexcharts';
-import dynamic from 'next/dynamic';
-const ApexOptions = dynamic(import('react-apexcharts'), { ssr: false });
 
 const primary = ConfigDB.data.color.primary_color;
 const secondary = ConfigDB.data.color.secondary_color;

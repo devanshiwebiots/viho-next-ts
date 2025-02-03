@@ -5,10 +5,10 @@ import DatePicker from 'react-datepicker';
 import { Col, Form, FormGroup, Input, Label, Row } from 'reactstrap';
 
 const ExperienceClass = () => {
-  const [startDate2, setStartDate2] = useState(new Date());
-  const [startDate3, setStartDate3] = useState(new Date());
-  const handleChange2 = (date: Date) => setStartDate2(date);
-  const handleChange3 = (date: Date) => setStartDate3(date);
+  const [startDate2, setStartDate2] = useState<Date | null>(new Date());
+  const [startDate3, setStartDate3] = useState<Date | null>(new Date());
+  const handleChange2 = (date: Date | null) => setStartDate2(date);
+  const handleChange3 = (date: Date | null) => setStartDate3(date);
 
   return (
     <Form className='theme-form '>

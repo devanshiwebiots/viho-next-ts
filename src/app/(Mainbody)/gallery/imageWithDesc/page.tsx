@@ -33,7 +33,7 @@ const GridDescGallery = () => {
                           <Item original={`${AssetsImagePath}/${item}`} width='1024' height='768' caption='hello'>
                             {({ ref, open }) => (
                               <a href={Javascript}>
-                                <Image style={{ cursor: 'pointer' }} onClick={open} height={206} width={342} ref={ref as React.MutableRefObject<HTMLImageElement>} src={`${AssetsImagePath}/${item}`} alt='thumbnail' />
+                                <Image style={{ cursor: 'pointer' }} onClick={open} height={206} width={342} ref={ref} src={`${AssetsImagePath}/${item}`} alt='thumbnail' />
                                 <div className='caption mb-0'>
                                   <h4>{PortfolioTitle}</h4>
                                   <p>{GalleryDescription}</p>

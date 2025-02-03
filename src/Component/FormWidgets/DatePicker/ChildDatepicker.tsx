@@ -4,9 +4,9 @@ import DatePicker from "react-datepicker";
 import { Col, FormGroup, InputGroup, Label, Row } from "reactstrap";
 
 const ChildDatepicker = () => {
-  const [startDate, setStartDate] = useState<any>(new Date());
+  const [startDate, setStartDate] = useState<Date | null>(new Date());
   const endDate = new Date();
-  const handleChange = (date: Date) => {
+  const handleChange = (date: Date | null) => {
     setStartDate(date);
   };
 

@@ -1,11 +1,9 @@
-import React from 'react';
-import { Col, Card, CardBody, Form } from 'reactstrap';
-import Dropzone from 'react-dropzone-uploader';
 import CardHeaderCommon from '@/CommonComponents/CardHeaderCommon';
 import { CustomFileUpload } from '@/Constant';
-import { DropzoneType } from '@/Type/SideBarType';
+import { Card, CardBody, Col, Form } from 'reactstrap';
+import CommonFileUpload from './Common/CommonFileUpload';
 
-const Dropzone5 = (props: DropzoneType) => {
+const Dropzone5 = () => {
   return (
     <Col sm='12'>
       <Card>
@@ -13,7 +11,7 @@ const Dropzone5 = (props: DropzoneType) => {
         <CardBody>
           <Form>
             <div className='dz-message needsclick'>
-              <Dropzone getUploadParams={props.getUploadParams} onSubmit={props.handleSubmit} inputContent='Drop Files (Custom Layout)' />
+              <CommonFileUpload/>
             </div>
           </Form>
         </CardBody>

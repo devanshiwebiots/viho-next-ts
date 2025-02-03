@@ -1,4 +1,4 @@
 export interface DatePickerInterFace {
-    startDate?: Date;
-    handleChange: (data: Date) => void;
+    startDate?: Date | null;
+    handleChange: (data: Date | null) => void;
   }

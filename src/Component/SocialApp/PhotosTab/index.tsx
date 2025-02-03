@@ -17,7 +17,7 @@ const PhotosTab = () => {
                     <Item original={`${AssetsImagePath}/${item}`} width='824' height='508'>
                       {({ ref, open }: any) => (
                         <a href={Javascript} onClick={open}>
-                          <Image height={300} width={380} className='img-thumbnail' ref={ref as React.MutableRefObject<HTMLImageElement>} src={`${AssetsImagePath}/${item}`} alt='' />
+                          <Image height={300} width={380} className='img-thumbnail' ref={ref} src={`${AssetsImagePath}/${item}`} alt='' />
                           <div className='caption'>
                             <h4>{PortfolioTitle}</h4>
                             <p>{PhotoDescription}</p>

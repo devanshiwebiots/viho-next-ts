@@ -8,7 +8,7 @@ import SlickSlider from '../../../../Component/bonus-ui/Carousel/SlickSlider';
 const Carousels = () => {
   return (
     <Fragment>
-      <Breadcrumbs mainTitle='Owl Carousel' parent='Bouns Ui' title='Owl Carousel' />
+      <Breadcrumbs mainTitle='Carousel' parent='Bouns Ui' title='Carousel' />
       <Container fluid={true}>
         <Row>
           <Col sm='12'>

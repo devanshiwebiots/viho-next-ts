@@ -11,8 +11,8 @@ import DisableDatePicker from "./DisableDatePicker";
 import InlineDate from "./InlineDate";
 
 const DatePickersData = () => {
-  const [startDate, setstartDate] = useState(new Date());
-  const handleChange = (date: Date) => {
+  const [startDate, setstartDate] = useState<Date | null>(new Date());
+  const handleChange = (date: Date | null) => {
     setstartDate(date);
   };
   return (

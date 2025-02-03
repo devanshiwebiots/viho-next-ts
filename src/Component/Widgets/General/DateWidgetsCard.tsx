@@ -3,8 +3,8 @@ import { Card, CardBody, Col, Row } from 'reactstrap';
 import DatePicker from 'react-datepicker';
 
 const DatewidgetCard = () => {
-  const [startDate, setStartDate] = useState(new Date());
-  const handleChange = (date: Date) => {
+  const [startDate, setStartDate] = useState<Date | null>(new Date());
+  const handleChange = (date: Date | null) => {
     setStartDate(date);
   };
 

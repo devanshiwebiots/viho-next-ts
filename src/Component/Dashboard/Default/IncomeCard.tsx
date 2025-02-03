@@ -1,9 +1,9 @@
 import { Javascript } from '@/Constant';
-import { IncomeCard } from '@/Type/SideBarType';
+import { IncomeCards } from '@/Type/SideBarType';
 import React from 'react';
 import { Card, CardBody } from 'reactstrap';
 
-const IncomeCard = ({ iconClass, amount, title, percent }: IncomeCard) => {
+const IncomeCard = ({ iconClass, amount, title, percent }: IncomeCards) => {
   return (
     <Card className='income-card card-primary'>
       <CardBody className='text-center'>

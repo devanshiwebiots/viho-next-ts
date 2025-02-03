@@ -11,22 +11,22 @@ const Basic = () => {
     switch (toastName) {
       case 'basicSuccessToast':
         toast.success('Success Notification !', {
-          position: toast.POSITION.TOP_RIGHT,
+          position: "top-right",
         });
         break;
       case 'basicInfoToast':
-        toast.info('Info Notification !', {
-          position: toast.POSITION.TOP_RIGHT,
+        toast.info("Info Notification !", {
+          position: "top-right",
         });
         break;
       case 'basicWarningToast':
-        toast.warn('Warning Notification !', {
-          position: toast.POSITION.TOP_RIGHT,
+        toast.warn("Warning Notification !", {
+          position: "top-right",
         });
         break;
       case 'basicDangerToast':
-        toast.error('Danger Notification !', {
-          position: toast.POSITION.TOP_RIGHT,
+        toast.error("Danger Notification !", {
+          position: "top-right",
         });
         break;
       default:

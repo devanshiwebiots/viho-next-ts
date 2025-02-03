@@ -1,9 +1,8 @@
 'use client';
-
 import { Fragment } from 'react';
-import Timeline from '../../../../../Component/bonus-ui/Timeline/timeline1';
 import { Container, Row, Col, Card, CardBody, Breadcrumb } from 'reactstrap';
 import CardHeaderCommon from '@/CommonComponents/CardHeaderCommon';
+import TimelineMain from '@/Component/bonus-ui/Timeline';
 
 const TimelineContainer = () => {
   return (
@@ -15,7 +14,7 @@ const TimelineContainer = () => {
             <Card>
               <CardHeaderCommon title='Timeline' />
               <CardBody>
-                <Timeline />
+                <TimelineMain />
               </CardBody>
             </Card>
           </Col>

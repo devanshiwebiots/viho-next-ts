@@ -6,9 +6,9 @@ import { useSelector } from 'react-redux';
 import { RootState } from '@/Redux/ReduxStore';
 import { Price, ProductName, Quantity, Sub_total, symbol } from '@/Constant';
 import { ItemDescriptionTypes, ProductData } from '@/Type/SideBarType';
-import React, { LegacyRef } from 'react';
+import React, { Ref } from "react";
 
-const ItemDescription = React.forwardRef((props, ref: LegacyRef<HTMLDivElement> | undefined ) => {
+const ItemDescription = React.forwardRef((props, ref: Ref<HTMLDivElement> | undefined ) => {
 
   const getCartTotal = (item: ProductData) => {
     if (item.quantity) {

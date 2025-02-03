@@ -1,12 +1,10 @@
-import React from 'react';
-import { Col, Card, CardBody, Form } from 'reactstrap';
-import Dropzone from 'react-dropzone-uploader';
-import { ToastContainer } from 'react-toastify';
-import { MultiImageUpload } from '@/Constant';
 import CardHeaderCommon from '@/CommonComponents/CardHeaderCommon';
-import { DropzoneType } from '@/Type/SideBarType';
+import { MultiImageUpload } from '@/Constant';
+import { ToastContainer } from 'react-toastify';
+import { Card, CardBody, Col, Form } from 'reactstrap';
+import CommonFileUpload from './Common/CommonFileUpload';
 
-const Dropzone2 = (props: DropzoneType) => {
+const Dropzone2 = () => {
   return (
     <Col sm='12'>
       <Card>
@@ -15,7 +13,7 @@ const Dropzone2 = (props: DropzoneType) => {
           <Form>
             <ToastContainer />
             <div className='dz-message needsclick'>
-              <Dropzone getUploadParams={props.getUploadParams} onSubmit={props.handleSubmit} accept='image/*' />
+              <CommonFileUpload multiple/>
             </div>
           </Form>
         </CardBody>

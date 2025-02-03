@@ -62,6 +62,7 @@ export interface PrintModalProps {
 
 export interface PrintPreviewprops {
   selectedUser: userCallbackUser;
+  ref:any;
 }
 
 export interface TabComponentPropType {

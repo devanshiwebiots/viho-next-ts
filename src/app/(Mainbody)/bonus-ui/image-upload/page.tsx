@@ -37,7 +37,7 @@ const UploadImage = () => {
                     <div className='files-gallery'>
                       {files.map((file, index) => (
                         <div key={index}>
-                          <Image className='files-gallery-item w-100' alt='img' src={file.preview?.url} />
+                          <img className='files-gallery-item w-100' alt='img' src={file.preview?.url} />
                         </div>
                       ))}
                     </div>

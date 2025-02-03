@@ -1,11 +1,11 @@
 import React from 'react';
 import { Col, Card, CardBody, Form } from 'reactstrap';
-import Dropzone from 'react-dropzone-uploader';
 import CardHeaderCommon from '@/CommonComponents/CardHeaderCommon';
 import { MultipleImageVideoAudioUpload } from '@/Constant';
 import { DropzoneType } from '@/Type/SideBarType';
+import CommonFileUpload from './Common/CommonFileUpload';
 
-const Dropzone3 = (props: DropzoneType) => {
+const Dropzone3 = () => {
   return (
     <Col sm='12'>
       <Card>
@@ -13,7 +13,7 @@ const Dropzone3 = (props: DropzoneType) => {
         <CardBody>
           <Form>
             <div className='dz-message needsclick'>
-              <Dropzone getUploadParams={props.getUploadParams} onSubmit={props.handleSubmit} accept='image/*,audio/*,video/*' />
+              <CommonFileUpload multiple/>
             </div>
           </Form>
         </CardBody>

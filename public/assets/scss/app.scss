@@ -1,37 +1,12 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import 'react-toastify/dist/ReactToastify.css';
-// @import 'vendors/whether-icon.scss';
+
 @import 'vendors/flag-icon.scss';
-// @import 'vendors/chartist/chartist';
+
 @import 'animate.scss';
 
 // Datepicker
 @import '~react-datepicker/dist/react-datepicker.css';
-
-//clock
-// @import "~react-clock/dist/Clock.css";
-
-//Input Range slider
-// @import "~react-range/lib/css/index.css";
-
-//  ImageCrop
-// @import "~react-image-crop/dist/ReactCrop.css";
-
-//  Timeline
-@import '~react-vertical-timeline-component/style.min.css';
-
-// Drag&Drop
-// @import "~react-dragula/dist/dragula.css";
-
-//scroll
-// @import "~react-perfect-scrollbar/dist/css/styles.css";
-
-// ReactToastify
-// @import "~react-toastify/dist/ReactToastify.css";
-
-// Timepicker
-// @import "~react-times/css/material/default.css";
-// @import "~react-times/css/classic/default.css";
 
 //LeafLet
 @import '~leaflet/dist/leaflet.css';
@@ -40,7 +15,9 @@
 @import 'vendors/themify.scss';
 @import 'style';
 @import 'responsive.scss';
-@import 'react-vertical-timeline-component/style.min.css';
 @import './react_plugin';
 @import 'photoswipe/dist/photoswipe.css';
-@import '/public/assets/scss/vendors/whether-icon.scss'
+@import '/public/assets/scss/vendors/whether-icon.scss';
+
+//tour
+@import "@sjmc11/tourguidejs/src/scss/tour.scss";

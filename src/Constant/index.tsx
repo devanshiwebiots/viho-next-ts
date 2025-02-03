@@ -583,12 +583,9 @@ export const T = 'T';
 export const ScarlettJohn = 'Scarlett john';
 export const Manager = 'Manager';
 export const Follower = 'Follower';
-// export const Following = 'Following';
 export const TotalPost = 'Total Post';
-// export const Facebook = 'Facebook';
 
-// export const Like = 'Like';
-// export const Twitter = 'Twitter';
+
 export const linkedin = 'linkedin';
 export const Google = 'Google +';
 export const Daily = 'Daily';
@@ -1298,7 +1295,7 @@ export const Select2SingleSelect = 'Select2 Single Select';
 export const BasicSwitchHeading = 'Basic Switch';
 
 export const Copy = 'Copy';
-export const Cut = 'Copy';
+export const Cut = 'Cut';
 export const CutcopyFromTextInput = 'Cut copy From TextInput';
 export const ClipboardOnTextareaConst = 'Clipboard On Text area';
 export const CutCopyFromTextarea = 'Cut Copy From Textarea';

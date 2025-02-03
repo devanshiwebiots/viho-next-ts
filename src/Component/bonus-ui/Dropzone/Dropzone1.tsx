@@ -1,11 +1,9 @@
-import { Fragment } from 'react';
-import { Col, Card, CardBody, Form, CardHeader } from 'reactstrap';
-import Dropzone from 'react-dropzone-uploader';
-import { SingleFileUpload } from '@/Constant';
 import CardHeaderCommon from '@/CommonComponents/CardHeaderCommon';
-import { Dropzone1Type } from '@/Type/SideBarType';
+import { SingleFileUpload } from '@/Constant';
+import { Card, CardBody, Col, Form } from 'reactstrap';
+import CommonFileUpload from './Common/CommonFileUpload';
 
-const Dropzone1 = (props: Dropzone1Type) => {
+const Dropzone1 = () => {
   return (
     <Col sm='12'>
       <Card>
@@ -13,16 +11,7 @@ const Dropzone1 = (props: Dropzone1Type) => {
         <CardBody>
           <Form>
             <div className='dz-message needsclick'>
-              <Dropzone
-                getUploadParams={props.getUploadParams}
-                maxFiles={1}
-                multiple={false}
-                canCancel={false}
-                inputContent='Drop A File'
-                styles={{
-                  dropzoneActive: { borderColor: 'green' },
-                }}
-              />
+              <CommonFileUpload/>
             </div>
           </Form>
         </CardBody>

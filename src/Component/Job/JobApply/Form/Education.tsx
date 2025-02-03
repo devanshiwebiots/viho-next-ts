@@ -7,13 +7,13 @@ import DatePicker from 'react-datepicker';
 import { Typeahead } from 'react-bootstrap-typeahead';
 
 const EducationClass = () => {
-  const [startDate, setStartDate] = useState(new Date());
-  const [endDate, setEndDate] = useState(new Date());
+  const [startDate, setStartDate] = useState<Date | null>(new Date());
+  const [endDate, setEndDate] = useState<Date | null>(new Date());
 
-  const handleChange = (date: Date) => {
+  const handleChange = (date: Date | null) => {
     setStartDate(date);
   };
-  const handleChange1 = (date: Date) => {
+  const handleChange1 = (date: Date | null) => {
     setEndDate(date);
   };
   return (

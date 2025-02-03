@@ -1,5 +1,6 @@
 import React from "react";
-import Ckeditor from "react-ckeditor-component";
+import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
+import { CKEditor } from "@ckeditor/ckeditor5-react";
 import { Typeahead } from "react-bootstrap-typeahead";
 import { FormGroup, Label, Input } from "reactstrap";
 import { Title, Type, Category, Content } from "@/Constant";
@@ -12,7 +13,7 @@ const MainForm = () => {
     <>
       <FormGroup className="mb-3">
         <Label for="validationCustom01">{Title}:</Label>
-        <Input  id="validationCustom01" type="text" placeholder="Post Title" required />
+        <Input id="validationCustom01" type="text" placeholder="Post Title" required />
         <div className="valid-feedback">{"Looks good!"}</div>
       </FormGroup>
       <FormGroup className="mb-3">
@@ -36,7 +37,7 @@ const MainForm = () => {
         <div className="theme-form">
           <FormGroup>
             <Label>{Content}:</Label>
-            <Ckeditor activeClassName="p10" />
+            <CKEditor editor={ClassicEditor} data="Your messages..." />
           </FormGroup>
         </div>
       </div>

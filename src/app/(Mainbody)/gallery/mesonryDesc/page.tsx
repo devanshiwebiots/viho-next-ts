@@ -38,7 +38,7 @@ const MasonryGalleryWithDesc = () => {
                           <Item original={`${AssetsImagePath}/${element.src}`} width="700" height="750" caption={description}>
                             {({ ref, open }) => (
                               <Link href={Javascript} onClick={open}>
-                                <img className="img-thumbnail p-2 rounded-0 rounded-top-1" ref={ref as React.MutableRefObject<HTMLImageElement>} src={`${AssetsImagePath}/${element.src}`} alt="images" />
+                                <img className="img-thumbnail p-2 rounded-0 rounded-top-1" ref={ref} src={`${AssetsImagePath}/${element.src}`} alt="images" />
                                 <div className="caption border-top-0 p-2">
                                   <h4 className="mt-0">{PortfolioTitle}</h4>
                                   <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>

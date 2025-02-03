@@ -12,7 +12,7 @@ const SideBarProfile = () => {
       <a className='setting-primary' href={Javascript}>
         <Settings />
       </a>
-      <Image height={90} width={90} className='img-90 rounded-circle' alt='Profile Image' src={session?.user?.image || `${AssetsImagePath}/dashboard/1.png`} />
+      <Image height={90} width={90}  priority className='img-90 rounded-circle' alt='Profile Image' src={session?.user?.image || `${AssetsImagePath}/dashboard/1.png`} />
       <div className='badge-bottom'>
         <Badge color='primary'>{New}</Badge>
       </div>

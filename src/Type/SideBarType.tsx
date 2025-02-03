@@ -338,8 +338,8 @@ export interface PredefinedRangesPropType {
 }
 
 export interface SingleDatePickerPropType {
-  startDate1: Date;
-  handleChange: (date: Date) => void;
+  startDate1: any;
+  handleChange: (date: Date | null) => void;
 }
 
 export interface FullColorCommonType {
@@ -422,7 +422,7 @@ export interface FormPropType {
   lastName: string;
 }
 
-export interface IncomeCard {
+export interface IncomeCards {
   amount: string;
   title: string;
   percent: string;

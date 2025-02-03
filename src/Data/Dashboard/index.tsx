@@ -1,7 +1,6 @@
 import { ArrowSvgIcon, BagSvgIcon, LightSvgIcon, ScreenSvgIcon, SubmitSvgIcon } from '@/Component/svgicons';
 import { AssetsImagePath } from '@/Constant';
 import React from 'react';
-// import { ArrowSvgIcon, BagSvgIcon, ScreenSvgIcon, LightSvgIcon, SubmitSvgIcon } from '../SvgIcons';
 
 export const DealerBox = [
   {

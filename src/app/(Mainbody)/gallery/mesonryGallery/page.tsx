@@ -34,7 +34,7 @@ const MasonryGallery = () => {
                         <Item original={`${AssetsImagePath}/${element.src}`} width="700" height="850">
                           {({ ref, open }) => (
                             <Link href={Javascript} onClick={open}>
-                              <Image width={500} height={500} className="img-thumbnail mb-4" ref={ref as React.MutableRefObject<HTMLImageElement>} src={`${AssetsImagePath}/${element.src}`} alt="images" />
+                              <Image width={500} height={500} className="img-thumbnail mb-4" ref={ref} src={`${AssetsImagePath}/${element.src}`} alt="images" />
                             </Link>
                           )}
                         </Item>

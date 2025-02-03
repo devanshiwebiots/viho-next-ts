@@ -1,23 +1,16 @@
 import React from 'react';
-import Dropzone from 'react-dropzone-uploader';
 import { Col, FormGroup, Label, Row } from 'reactstrap';
 import { UploadProjectFile } from '@/Constant';
+import CommonFileUpload from '@/Component/bonus-ui/Dropzone/Common/CommonFileUpload';
 
 const DropItem = () => {
-  const getUploadParams = () => {
-    return {
-      url: 'https://httpbin.org/post',
-    };
-  };
-
-  const handleChangeStatus = () => {};
   return (
     <Row>
       <Col>
         <div className='mb-3'>
           <FormGroup>
             <Label>{UploadProjectFile}</Label>
-            <Dropzone getUploadParams={getUploadParams} onChangeStatus={handleChangeStatus} maxFiles={1} multiple={false} canCancel={false} inputContent='Drop files here' />
+            <CommonFileUpload/>
           </FormGroup>
         </div>
       </Col>
