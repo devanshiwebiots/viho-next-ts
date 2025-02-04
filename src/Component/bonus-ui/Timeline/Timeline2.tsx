@@ -4,7 +4,7 @@ import { Video } from "react-feather";
 const Timeline2 = () => {
   return (
       <div className="cd-timeline-block">
-        <div className="cd-timeline-img ">
+        <div className="cd-timeline-img  cd-movie bg-secondary">
           <Video />
         </div>
         <div className="cd-timeline-content">

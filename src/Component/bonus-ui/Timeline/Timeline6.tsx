@@ -4,7 +4,7 @@ import { Edit } from 'react-feather';
 const Timeline6 = () => {
   return (
     <div className="cd-timeline-block">
-      <div className="cd-timeline-img ">
+      <div className="cd-timeline-img cd-movie bg-danger bounce-in ">
         <Edit />
       </div>
       <div className="cd-timeline-content">

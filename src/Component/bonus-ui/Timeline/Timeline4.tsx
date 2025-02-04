@@ -4,7 +4,7 @@ import { Activity } from "react-feather";
 const Timeline4 = () => {
   return (
     <div className="cd-timeline-block">
-      <div className="cd-timeline-img ">
+      <div className="cd-timeline-img cd-location bg-info bounce-in ">
         <Activity />
       </div>
       <div className="cd-timeline-content">

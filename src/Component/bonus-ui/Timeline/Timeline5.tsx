@@ -6,7 +6,7 @@ import { PlayCircle } from "react-feather";
 const Timeline5 = () => {
   return (
     <div className="cd-timeline-block">
-      <div className="cd-timeline-img ">
+      <div className="cd-timeline-img cd-location bg-warning bounce-in ">
         <PlayCircle />
       </div>
       <div className="cd-timeline-content">

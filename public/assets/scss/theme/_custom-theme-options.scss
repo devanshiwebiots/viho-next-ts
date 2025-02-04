@@ -243,6 +243,86 @@ $color5: #4d3096;
     }
   }
 }
+#cd-timeline {
+  position: relative;
+  padding: 2em 0;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		font-size: 1.5rem;
+		height: 100%;
+		width: 2px;
+		background: $light-color;
+		left: 50%;
+	}
+}
+.cd-container {
+	width: 90%;
+	max-width: 1170px;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+.cd-timeline-block {
+
+    .cd-timeline-content {
+        width: 44%;
+        background-color: $light-color;
+        border-radius: 4px;
+        border-radius: 4px;
+        padding: 30px;
+        position: relative;
+        @media (max-width: 1199px) {
+            width: 100%; 
+            padding: 30px; 
+        }
+    } 
+    &:nth-child(even) {
+      width: 100%;
+      display: flow-root;
+      .cd-timeline-content {
+        float: right;
+        .cd-date {
+          padding-left: 15px;
+          float: left;
+          display: inline-block;
+          position: absolute;
+          width: 100%;
+          right: 40%;
+          top: 6px;
+        }
+      }
+    }
+    &:nth-child(odd) {
+      .cd-timeline-content {
+        .cd-date {
+          right: -35%;
+          float: right;
+          position: absolute;
+          top: 6px; 
+        }
+      }
+    }
+    .cd-timeline-img {
+        left: 48%;
+        height: 60px;
+        width: 60px;
+        border-radius: 4px;
+        svg {
+          margin-left: 18px;
+          margin-top: 14px;
+          font-size: 27px;
+        }
+        position: absolute;
+        @media (max-width: 1199px) {
+          left: 0%;
+        }
+    }
+    
+}
+
+
 //Dark layout
 body {
   &.light-only {
@@ -286,6 +366,133 @@ body {
   &.dark-only {
     color: $dark-all-font-color;
     background-color: $dark-body-background;
+    .right-sidebar-chat {
+			.msger-inputarea {
+				.EmojiPickerReact {
+					background-color: $dark-body-background !important;
+					border-color: $dark-card-border !important;
+				}	
+			}
+		}
+    .msger-inputarea {
+			.epr-search-container {
+				input {
+					background-color: $dark-body-background !important;
+					color: $white !important; 
+				}
+			}
+		}
+    .ck{
+        .ck-editor__main{
+            >.ck-editor__editable{
+                background-color: transparent;
+                border-color: transparent;
+            }
+        }
+        &.ck-toolbar{
+            background-color: transparent;
+            border-color: transparent;
+            .ck-toolbar__separator{
+                background-color: $dark-body-background  !important;
+            }
+        }
+        &.ck-icon{
+            &.ck-icon_inherit-color{
+                color: rgba($white , 0.8);
+            }
+        }
+        &.ck-button{
+            &.ck-button{
+                &:not(.ck-disabled){
+                    &:hover{
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+        &.ck-button{
+            &.ck-on{
+                background-color: transparent;
+            }
+            &:focus{
+                border-color: rgba($white , 0.8);
+            }
+        }
+    }
+    .ck-heading-dropdown {
+        .ck-dropdown__panel {
+            .ck-list {
+                color: $white !important;
+                background-color: $dark-body-background  !important;
+            }
+            .ck-heading_paragraph {
+                background-color: $dark-body-background  !important;
+            }
+        }
+        .ck-dropdown__panel {
+            .ck {
+                .ck-insert-table-dropdown__grid {
+                    background-color: $dark-body-background  !important;
+                    border-color:  $dark-card-border !important;
+
+                }
+            }
+        }
+    }
+    .ck.ck-toolbar {
+        background-color: $dark-body-background  !important;
+        color: $white !important; 
+    }
+    .rmdp-ep-arrow {
+        border-color: var(--card-color) !important;
+    }
+    .rmdp-header-values {
+        color: $white; 
+    } 
+    .rmdp-day {
+        span {
+            color: $white;
+        }
+    }
+    .epr-search-container {
+      input {
+        background-color: $dark-body-background !important;
+        color: $white !important; 
+      }
+    }
+    .EmojiPickerReact {
+      background-color: $dark-body-background !important;
+      border-color: $dark-card-border !important; 
+    }
+
+		.epr-emoji-category {
+			color: $white;
+			background-color: $dark-body-background !important;
+		}
+		.epr-main {
+			.epr-body {
+				.epr-emoji-list {
+					.epr-emoji-category {
+						h2 {
+							color: $white;
+							background-color: $dark-body-background !important;
+							border-color: $dark-card-border !important;
+						}
+					}
+				}
+			}
+		}
+		.rmdp-ep-arrow {
+			border-color: $dark-card-border !important;
+		}
+		.rmdp-header-values {
+			color: $white; 
+		} 
+		.rmdp-day {
+			span {
+				color: $white;
+			}
+		}
     &.box-layout{
       .page-wrapper{
         &.horizontal-wrapper{

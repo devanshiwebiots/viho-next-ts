@@ -8,13 +8,13 @@
   @extend .flag-icon-background;
   position: relative;
   display: inline-block;
-  width: (4 / 3) * 1em;
+  width: calc((4 / 3) * 1em);
   line-height: 1em;
   &:before {
     content: '\00a0';
   }
   &.flag-icon-squared {
-    width: 1em;
+    width: 1em; 
   }
 }
 
