@@ -184,6 +184,103 @@
       }
     }
   }
+  #cd-timeline {
+    &::before {
+      right: 50%;
+      left: unset;
+      @media only screen and (max-width: 1199px) {
+        right: -5%;
+        left: unset;
+      }
+    }
+    @media only screen and (max-width: 575px) {
+      margin-right: 40px;
+      margin-left: unset;
+      &::before {
+        right: -8%;
+        left: unset;
+      }
+    }
+    @media only screen and (max-width: 425px) {
+      margin-right: 38px;
+      margin-left: unset;
+      &::before {
+        right: -12%;
+        left: unset;
+      }
+    }
+    @media only screen and (max-width: 375px) {
+      margin-right: 29px;
+      margin-left: unset;
+    }
+  }
+  .cd-timeline-block {
+    &:nth-child(even) {
+      .cd-timeline-content {
+        float: left;
+        .cd-date {
+          padding-right: 15px;
+          padding-left: unset;
+          float: right;
+          left: 40%;
+          right: unset;
+        }
+      }
+    }
+    &:nth-child(odd) {
+      .cd-timeline-content {
+        .cd-date {
+          left: -35%;
+          padding-left: 15px;
+          padding-right: unset;
+          float: left;
+          right: unset;
+          @media only screen and (max-width: 1399px) {
+            left: -47%;
+            right: unset;
+          }
+        }
+      }
+    }
+    .cd-timeline-img {
+      right: 48%;
+      margin: unset;
+      @media only screen and (max-width: 1199px) {
+        right: -7%;
+        margin: unset;
+      }
+      @media only screen and (max-width: 680px) {
+        right: -7%;
+        margin: unset;
+      }
+      @media only screen and (max-width: 575px) {
+        right: -11%;
+        margin: unset;
+      }
+      @media only screen and (max-width: 425px) {
+        right: -17%;
+        margin: unset;
+      }
+      svg {
+        margin-right: 18px;
+        margin-left: unset;
+
+        @media only screen and (max-width: 1399px) {
+          margin-right: 5px;
+          margin-left: unset;
+        }
+        @media only screen and (max-width: 680px) {
+          margin-right: 7px;
+          margin-left: unset;
+        }
+        @media only screen and (max-width: 425px) {
+          right: -13%;
+          left: unset;
+        }
+      }
+    }
+  }
+  
   .blockquote{
     border-right: 4px solid $light-gray;
     border-left: unset;
