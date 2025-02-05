@@ -29,7 +29,6 @@ const Newproject = () => {
   } = useForm<newProjectTypes>();
 
   const AddProject: SubmitHandler<newProjectTypes> = async (data) => {
-    console.log('data', data);
     await dispatch(addProjectData(data));
     router.push(`/project/project-list`);
   };

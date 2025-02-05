@@ -15,7 +15,6 @@ const TasksContainer = () => {
       await fetch('/api/TaskApi')
         .then((res) => res.json())
         .then((resp) => {
-          console.log(resp, 'resp');
           dispatch(setAllTask(resp));
         });
     } catch (error) {

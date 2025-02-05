@@ -25,7 +25,6 @@ const EcommerceSlice = createSlice({
   initialState,
   reducers: {
     addCartData: (state, action) => {
-      console.log(action.payload);
       let flag = true;
       state.cartData?.map((item: any, index) => {
         if (item.id === action.payload.id) {

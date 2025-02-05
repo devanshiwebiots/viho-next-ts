@@ -14,7 +14,6 @@ const projectSlice = createSlice({
   reducers: {
     addProjectData: (state: any, action) => {
       state.data = [...state.data, { ...action.payload, id: state.data.length + 1, customers_img1: 'user/3.jpg', customers_img2: 'user/5.jpg', customers_img3: 'user/1.jpg', img: 'user/3.jpg' }];
-      console.log(state.data);
     },
   },
   extraReducers: (builder) => {

@@ -28,7 +28,6 @@ const BaiscTableComponent = () => {
   const getTableData = async () => {
     const result = await fetch('/api/TableDataRoute');
     const finalResult = await result.json();
-    console.log(finalResult);
     dispatch(addTableData(finalResult));
   };
   return (

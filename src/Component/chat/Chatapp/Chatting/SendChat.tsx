@@ -30,7 +30,6 @@ const SendChat = () => {
     let currentUserId = currentUser?.id;
     let selectedUserId = selectedUser?.id;
     let selectedUserName = selectedUser?.name;
-    console.log(selectedUserId);
     if (messageInput.length > 0) {
       dispatch(sendMessageAsync({ currentUserId, selectedUserId, messageInput, chats }));
       setMessageInput("");

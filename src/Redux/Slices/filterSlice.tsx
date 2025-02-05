@@ -9,7 +9,6 @@ const filterSlice = createSlice({
   },
   reducers: {
     toggleRowGrid: (state) => {
-      console.log('Toggle Row Grid');
       state.gridClass = 'list-view';
     },
     toggleColumnGrid: (state) => {
@@ -20,7 +19,6 @@ const filterSlice = createSlice({
       state.columnClass = action.payload;
     },
     toggleSidebar: (state) => {
-      console.log('working');
       state.sidebarOpen = !state.sidebarOpen;
     },
   },

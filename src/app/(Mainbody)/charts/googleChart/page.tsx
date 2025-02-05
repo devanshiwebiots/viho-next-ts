@@ -23,7 +23,6 @@ const GoogleChartContainer = () => {
     try {
       const resp = await fetch('/api/googleChartApi');
       const result = await resp.json();
-      console.log(result);
       setGoogleChart(result);
     } catch (error) {
       console.log('cancelled', error);

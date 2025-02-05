@@ -3,7 +3,6 @@ import { tableTypes, tablesData } from '../../TablesType';
 
 const BasicTableClassTbody = () => {
   const { items } = useSelector((state: tableTypes) => state.TableSlice);
-  console.log(items);
 
   return (
     <tbody>

@@ -7,7 +7,6 @@ const ContactReducer = createSlice({
   initialState: initialState,
   reducers: {
     createUser: (state, action) => {
-      console.log(action.payload, 'action.payload');
       const userTemp = {
         id: state.users.length + 1,
         avatar: action.payload.defaultUser,

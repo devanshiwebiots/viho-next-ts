@@ -11,7 +11,6 @@ const Registration = (props: RegistrationTType) => {
   } = useForm<FormPropType>();
 
   const onSubmit = handleSubmit((data) => {
-    console.log(data);
     if (data.firstName !== '' && data.firstName !== '') {
       props.setGoSteps(props.goSteps + 1);
     }

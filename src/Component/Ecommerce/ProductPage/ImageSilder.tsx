@@ -12,7 +12,6 @@ import { Col, Media } from 'reactstrap';
 const ImageSlider = () => {
   const dispatch = useDispatch();
   const productData = useSelector((store: RootState) => store.EcommerceSlice.Data);
-  console.log(productData);
   const [nav1, setNav1] = useState<Slider | null>();
   const [nav2, setNav2] = useState<Slider | null>();
   useEffect(() => {
