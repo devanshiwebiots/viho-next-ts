@@ -1,6 +1,6 @@
 import { bookMarkType } from '@/Component/Bookmarks/ReducerTypes';
 import { UserUpdateType, userCallbackUser } from '@/Component/Contacts/ContactType';
-import { LegacyRef, ReactNode } from 'react';
+import { Ref, ReactNode } from 'react';
 import { Placement } from 'react-bootstrap/esm/types';
 import { FieldErrors, UseFormRegister } from 'react-hook-form';
 import * as Icon from 'react-feather';
@@ -516,7 +516,7 @@ export interface CheckoutTableDataType {
 }
 
 export interface ItemDescriptionTypes {
-  ref: LegacyRef<HTMLDivElement> | undefined;
+  ref: Ref<HTMLDivElement> | undefined;
 }
 
 export interface productListDataTypes {

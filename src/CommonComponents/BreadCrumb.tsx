@@ -45,24 +45,6 @@ const Breadcrumbs = ({ mainTitle, parent, title }: BreadCrumbType) => {
         </Row>
       </div>
     </Container>
-    // <Container fluid={true}>
-    //   <div className='page-header'>
-    //     <Row>
-    //       <Col sm='6'>
-    //         <h3>{mainTitle}</h3>
-    //       </Col>
-    //       <Col sm='6'>
-    //         <ol className='breadcrumb'>
-    //           <li className='breadcrumb-item'>
-    //             <Link href={`/dashboard/default`}>Home</Link>
-    //           </li>
-    //           <li className='breadcrumb-item'>{parent}</li>
-    //           <li className='breadcrumb-item active'>{title}</li>
-    //         </ol>
-    //       </Col>
-    //     </Row>
-    //   </div>
-    // </Container>
   );
 };
 
