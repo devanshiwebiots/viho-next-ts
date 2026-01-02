@@ -15,7 +15,7 @@ const RightSection = () => {
                 <Row className='blog-box blog-list'>
                   <Col xl='6' xs='12'>
                     <div className='blog-wrraper'>
-                      <Image height={217} width={305} className='p-0' src={`${AssetsImagePath}/blog/blog-${item}.jpg`} alt='' />
+                      <Image height={217} width={305} className='p-0' src={`${AssetsImagePath}/blog/blog-${item}.jpg`} alt='' unoptimized/>
                     </div>
                   </Col>
                   <Col xl='6' xs='12'>

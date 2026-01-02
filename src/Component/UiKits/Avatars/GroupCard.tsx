@@ -16,7 +16,7 @@ const GroupCard = () => {
               <ul>
                 {element.path.map((item, index) => (
                   <li key={index} className='d-inline-block'>
-                    <Image className='rounded-circle' height={element.size} width={element.size} src={`${AssetsImagePath}/${item}`} alt='group image' />
+                    <Image className='rounded-circle' height={element.size} width={element.size} src={`${AssetsImagePath}/${item}`} alt='group image' unoptimized/>
                   </li>
                 ))}
               </ul>

@@ -8,7 +8,7 @@ const TopDetailCourse = () => {
   return (
     <div className='blog-box blog-details'>
       <Card>
-        <Image height={400} width={800} className='img-fluid w-100' src={`${AssetsImagePath}/faq/learning-1.jpg`} alt='blog-main' />
+        <Image height={400} width={800} className='img-fluid w-100' src={`${AssetsImagePath}/faq/learning-1.jpg`} alt='blog-main' unoptimized/>
       </Card>
       <Card>
         <CardBody>

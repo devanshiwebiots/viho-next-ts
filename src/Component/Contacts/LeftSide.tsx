@@ -23,7 +23,7 @@ const LeftSide = () => {
               <div className='email-app-sidebar left-bookmark'>
                 <div className='d-flex'>
                   <div className='media-size-email'>
-                    <Image height={50} width={50} className='me-3 rounded-circle' src={user} alt='images' />
+                    <Image height={50} width={50} className='me-3 rounded-circle' src={user} alt='images' unoptimized/>
                   </div>
                   <div className='flex-grow-1'>
                     <h6 className='f-w-600'>{MarkJecno}</h6>

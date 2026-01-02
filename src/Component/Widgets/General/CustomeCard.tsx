@@ -15,10 +15,10 @@ const CustomCard = () => {
       <Col xl='4' md='6' className='box-col-6'>
         <Card className='custom-card'>
           <CardHeader>
-            <Image className='img-fluid' src={`${AssetsImagePath}/user-card/3.jpg`} alt='' width={663} height={414} />
+            <Image className='img-fluid' src={`${AssetsImagePath}/user-card/3.jpg`} alt='' width={663} height={414} unoptimized/>
           </CardHeader>
           <div className='card-profile'>
-            <Image className='rounded-circle d-inline' src={`${AssetsImagePath}/avtar/3.jpg`} alt='' width={110} height={110} />
+            <Image className='rounded-circle d-inline' src={`${AssetsImagePath}/avtar/3.jpg`} alt='' width={110} height={110} unoptimized/>
           </div>
           <ListGroup className='card-social flex-row d-flex'>
             {Socialdata.map((element, index) => (

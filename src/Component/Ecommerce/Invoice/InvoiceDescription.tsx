@@ -11,7 +11,7 @@ const InvoiceDescription = () => {
         <div className='invo-profile-left'>
           <Media>
             <div className='media-left'>
-              <Image width={60} height={60} className='media-object rounded-circle img-60' src={`${AssetsImagePath}/user/1.jpg`} alt='' />
+              <Image width={60} height={60} className='media-object rounded-circle img-60' src={`${AssetsImagePath}/user/1.jpg`} alt='' unoptimized/>
             </div>
             <Media body className='m-l-20'>
               <h4 className='media-heading f-w-600'>{JohanDeo}</h4>

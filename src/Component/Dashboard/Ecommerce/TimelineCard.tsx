@@ -45,10 +45,10 @@ const TimelineCard = () => {
               <p>Quisque a consequat ante Sit amet magna at volutapt.</p>
               <ul className='timeline-pro flex-row'>
                 <li>
-                  <Image className='img-fluid' height={37} width={76} src={`${AssetsImagePath}/dashboard-2/11.png`} alt='Product-1' />
+                  <Image className='img-fluid' height={37} width={76} src={`${AssetsImagePath}/dashboard-2/11.png`} alt='Product-1' unoptimized/>
                 </li>
                 <li>
-                  <Image className='img-fluid' src={`${AssetsImagePath}/dashboard-2/10.png`} height={27} width={76} alt='Product-1' />
+                  <Image className='img-fluid' src={`${AssetsImagePath}/dashboard-2/10.png`} height={27} width={76} alt='Product-1' unoptimized/>
                 </li>
               </ul>
             </Media>

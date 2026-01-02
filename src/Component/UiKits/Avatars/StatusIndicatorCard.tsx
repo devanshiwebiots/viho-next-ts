@@ -13,12 +13,12 @@ const StatusIndicatorCard = () => {
         <CardBody className='avatar-showcase'>
           <div className='avatars'>
             <div className='avatar'>
-              <Image className='rounded-circle' height={100} width={100} src={`${AssetsImagePath}/user/1.jpg`} alt='Status Indicator image' />
+              <Image className='rounded-circle' height={100} width={100} src={`${AssetsImagePath}/user/1.jpg`} alt='Status Indicator image' unoptimized/>
               <div className='status status-100 bg-success'> </div>
             </div>
             {StatusIndicatorCardData.map((element, index) => (
               <div key={index} className='avatar'>
-                <Image className=' rounded-circle' height={element.size} width={element.size} src={`${AssetsImagePath}/user/1.jpg`} alt='Status Indicator image' />
+                <Image className=' rounded-circle' height={element.size} width={element.size} src={`${AssetsImagePath}/user/1.jpg`} alt='Status Indicator image' unoptimized/>
                 <div className={`status ${element.statusClass}`}></div>
               </div>
             ))}

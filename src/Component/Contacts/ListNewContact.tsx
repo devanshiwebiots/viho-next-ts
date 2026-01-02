@@ -21,7 +21,7 @@ const ListNewContact = ({ users, userCallback }: propsType) => {
             return (
               <NavLink className={dynamictab === index ? 'active' : ''} onClick={() => setDynamicTab(index)} key={index}>
                 <Media onClick={() => ContactDetails(user)}>
-                  <Image height={50} width={50} className='p-0 img-fluid img-50 m-r-20 rounded-circle update_img_0' src={`${user.avatar}`} alt='userImage' />
+                  <Image height={50} width={50} className='p-0 img-fluid img-50 m-r-20 rounded-circle update_img_0' src={`${user.avatar}`} alt='userImage' unoptimized/>
                   <Media body>
                     <h6>
                       <span className='first_name_0'>{user.name}</span>
@@ -40,7 +40,7 @@ const ListNewContact = ({ users, userCallback }: propsType) => {
           <Col sm='12'>
           <div>
             <div className='search-not-found text-center'>
-              <Image width={200} height={137} src={`${AssetsImagePath}/search-not-found.png`} alt='image' className='second-search' style={{ display: 'inline' }} />
+              <Image width={200} height={137} src={`${AssetsImagePath}/search-not-found.png`} alt='image' className='second-search' style={{ display: 'inline' }} unoptimized/>
               <p className='mb-0'>Sorry, Not Found Any Contact</p>
             </div>
           </div>

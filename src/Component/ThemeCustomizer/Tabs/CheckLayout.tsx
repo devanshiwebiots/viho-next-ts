@@ -32,7 +32,7 @@ const CheckLayout = () => {
             onClick={() => {
               handleLayout('default-sidebar');
             }}>
-            <Image height={265} width={197} className='img-fluid' src={`${AssetsImagePath}/landing/demo/1.jpg`} alt='' />
+            <Image height={265} width={197} className='img-fluid' src={`${AssetsImagePath}/landing/demo/1.jpg`} alt='' unoptimized/>
             <h6>Default layout</h6>
           </div>
         </ListGroupItem>
@@ -42,7 +42,7 @@ const CheckLayout = () => {
             onClick={() => {
               handleLayout('compact-sidebar');
             }}>
-            <Image className='img-fluid' height={265} width={197} src={`${AssetsImagePath}/landing/demo/2.jpg`} alt='' />
+            <Image className='img-fluid' height={265} width={197} src={`${AssetsImagePath}/landing/demo/2.jpg`} alt='' unoptimized/>
             <h6>Compact layout</h6>
           </div>
         </ListGroupItem>
@@ -52,7 +52,7 @@ const CheckLayout = () => {
             onClick={() => {
               handleLayout('modern-sidebar');
             }}>
-            <Image height={265} width={197} className='img-fluid' src={`${AssetsImagePath}/landing/demo/3.jpg`} alt='' />
+            <Image height={265} width={197} className='img-fluid' src={`${AssetsImagePath}/landing/demo/3.jpg`} alt='' unoptimized/>
             <h6>Modern layout</h6>
           </div>
         </ListGroupItem>

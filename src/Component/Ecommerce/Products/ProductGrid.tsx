@@ -99,7 +99,7 @@ const ProductGrid = () => {
                         ''
                       )}
                       {item.status === 'Hot' ? <span className='ribbon ribbon ribbon-clip ribbon-warning'>{item.status}</span> : ''}
-                      <Image className='img-fluid media w-100' src={`${AssetsImagePath}/${item.img}`} height={403} width={370} alt='' />
+                      <Image className='img-fluid media w-100' src={`${AssetsImagePath}/${item.img}`} height={403} width={370} alt='' unoptimized/>
                       <div className='product-hover'>
                         <ListGroup className=' d-flex flex-row'>
                           <ListGroupItem>

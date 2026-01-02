@@ -13,11 +13,11 @@ const ShapeCard = () => {
         <CardBody className='avatar-showcase'>
           <div className='avatars'>
             <div className='avatar'>
-              <Image className='rounded-circle b-r-8' width={100} height={100} src={`${AssetsImagePath}/user/1.jpg`} alt='Shape Image' />
+              <Image className='rounded-circle b-r-8' width={100} height={100} src={`${AssetsImagePath}/user/1.jpg`} alt='Shape Image' unoptimized/>
             </div>
             {ShapeCardData.map((element, index) => (
               <div key={index} className='avatar'>
-                <Image className={`rounded-circle ${element.statusClass}`} width={element.size} height={element.size} src={`${AssetsImagePath}/user/1.jpg`} alt='Sizing Image' />
+                <Image className={`rounded-circle ${element.statusClass}`} width={element.size} height={element.size} src={`${AssetsImagePath}/user/1.jpg`} alt='Sizing Image' unoptimized/>
               </div>
             ))}
           </div>

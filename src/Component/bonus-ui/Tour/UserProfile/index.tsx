@@ -9,12 +9,12 @@ const UserProfile = () => {
     <Col sm='12'>
       <Card className='profile-header bg-size' style={{ backgroundImage: `url(${AssetsImagePath}/user-profile/bg-profile.jpg)`, backgroundRepeat: 'center center', backgroundPosition: 'cover' }}>
         <div className='profile-img-wrrap'>
-          <Image width={100} height={100} className='img-fluid bg-img-cover' src={`${AssetsImagePath}/user-profile/bg-profile.jpg`} alt='' />
+          <Image width={100} height={100} className='img-fluid bg-img-cover' src={`${AssetsImagePath}/user-profile/bg-profile.jpg`} alt='' unoptimized/>
         </div>
         <div className='userpro-box'>
           <div className='img-wrraper'>
             <div className='avatar'>
-              <Image width={86} height={86} className='step1' alt='' src={`${AssetsImagePath}/user/7.jpg`} />
+              <Image width={86} height={86} className='step1' alt='' src={`${AssetsImagePath}/user/7.jpg`} unoptimized/>
             </div>
             <div className='icon-wrapper'>
               <i className='icofont icofont-pencil-alt-5 step2' data-intro='Change Profile image here'></i>

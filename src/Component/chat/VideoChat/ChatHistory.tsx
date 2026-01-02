@@ -16,12 +16,12 @@ const ChatHistory = () => {
             {EndCall}
           </Button>
           <div className='receiver-img'>
-            <Image width={230} height={230} src={`${AssetsImagePath}/other-images/receiver-img.jpg`} alt='receiver-img' />
+            <Image width={230} height={230} src={`${AssetsImagePath}/other-images/receiver-img.jpg`} alt='receiver-img' unoptimized/>
           </div>
         </div>
       </Col>
       <Col sm='6' className='ps-0 caller-img'>
-        <Image height={705} width={607} className='img-fluid' src={`${AssetsImagePath}/other-images/caller.jpg`} alt='caller' />
+        <Image height={705} width={607} className='img-fluid' src={`${AssetsImagePath}/other-images/caller.jpg`} alt='caller' unoptimized/>
       </Col>
     </Row>
   );

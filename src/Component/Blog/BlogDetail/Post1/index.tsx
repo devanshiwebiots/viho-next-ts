@@ -8,7 +8,7 @@ const Post1 = () => {
     <Col xl='6' className='set-col-12 box-col-12 '>
       <Card>
         <div className='blog-box blog-shadow'>
-          <Image height={479} width={766} className='w-100 img-fluid bg-img-cover' src={`${AssetsImagePath}/blog/blog.jpg`} alt='' />
+          <Image height={479} width={766} className='w-100 img-fluid bg-img-cover' src={`${AssetsImagePath}/blog/blog.jpg`} alt='' unoptimized/>
           <div className='blog-details'>
             <p>{'25 July 2023'}</p>
             <h4>{'Accusamus et iusto odio dignissimos ducimus qui blanditiis.'}</h4>

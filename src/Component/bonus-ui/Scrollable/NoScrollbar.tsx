@@ -13,7 +13,7 @@ const NoScrollbar = () => {
         <CardBody>
           <ScrollBar className='scroll-vertical' options={{ suppressScrollX: true, suppressScrollY: true }}>
             <div>
-              <Image src={`${AssetsImagePath}/banner/3.jpg`} alt='NoScrollbar scroll image' height={600} width={704} />
+              <Image src={`${AssetsImagePath}/banner/3.jpg`} alt='NoScrollbar scroll image' height={600} width={704} unoptimized/>
             </div>
           </ScrollBar>
         </CardBody>

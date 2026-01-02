@@ -24,7 +24,7 @@ const Post2 = () => {
               </span>
             </div>
           </div>
-          <Image height={600} width={900} className='img-fluid' alt='user' src={`${AssetsImagePath}/social-app/timeline-2.png`} />
+          <Image height={600} width={900} className='img-fluid' alt='user' src={`${AssetsImagePath}/social-app/timeline-2.png`} unoptimized/>
           <div className='timeline-content'>
             <p>{TimelineParagraph}</p>
             <LikeAndShare />

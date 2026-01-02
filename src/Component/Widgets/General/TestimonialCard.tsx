@@ -14,7 +14,7 @@ const TestimonialCard = () => {
               <div className='item'>
                 <i className='fa fa-quote-left'></i>
                 <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.</p>
-                <Image className='img-80' src={`${AssetsImagePath}/dashboard/boy-2.png`} alt='' height={80} width={80} />
+                <Image className='img-80' src={`${AssetsImagePath}/dashboard/boy-2.png`} alt='' height={80} width={80} unoptimized/>
                 <Link href={`/app/users/userProfile`}>
                   <h5 className='font-primary text-center'>Poio klot</h5>
                 </Link>

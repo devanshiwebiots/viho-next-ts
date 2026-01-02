@@ -17,10 +17,10 @@ const UserCardsContainer = () => {
           <Col md='6' xl='4' lg='6' className='box-col-6' key={item.id}>
             <Card className='custom-card'>
               <CardHeader className='p-0'>
-                <Image height={215} width={345} src={`${AssetsImagePath}/${item.card_bg}`} className='img-fluid' alt='user' />
+                <Image height={215} width={345} src={`${AssetsImagePath}/${item.card_bg}`} className='img-fluid' alt='user' unoptimized/>
               </CardHeader>
               <div className='card-profile'>
-                <Image height={110} width={110} src={`${AssetsImagePath}/${item.avatar}`} className='rounded-circle mx-auto' alt='users' />
+                <Image height={110} width={110} src={`${AssetsImagePath}/${item.avatar}`} className='rounded-circle mx-auto' alt='users' unoptimized/>
               </div>
               <div className='social-media step3'>
                 <ul className='user-list-social flex-row simple-list card-social'>

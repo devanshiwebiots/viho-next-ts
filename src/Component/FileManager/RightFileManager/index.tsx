@@ -66,7 +66,7 @@ const RightFileManager = () => {
       <div className="file-content">
         <Card>
           <RightFileManagerHeaderSection searchTerm={searchTerm} setSearchTerm={setSearchTerm} getFile={getFile} onFileChange={onFileChange} onFileUpload={onFileUpload} />
-          {fileList.length ? <RightFileManagerBodySection fileList={fileList} myfile={myfile} /> : <Image height={200} width={200} className="img-fluid m-auto" src={`${AssetsImagePath}/search-not-found.png`} alt="" />}
+          {fileList.length ? <RightFileManagerBodySection fileList={fileList} myfile={myfile} /> : <Image height={200} width={200} className="img-fluid m-auto" src={`${AssetsImagePath}/search-not-found.png`} alt="" unoptimized/>}
         </Card>
       </div>
     </Col>

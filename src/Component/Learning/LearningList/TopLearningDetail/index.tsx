@@ -11,7 +11,7 @@ const TopLearningList = () => {
           <Card>
             <Row className='blog-box blog-list'>
               <Col xl='5 ' xs='12'>
-                <Image height={200} width={200} className='img-fluid sm-100-w' src={`${AssetsImagePath}/faq/${item.image}.jpg`} alt='' />
+                <Image height={200} width={200} className='img-fluid sm-100-w' src={`${AssetsImagePath}/faq/${item.image}.jpg`} alt='' unoptimized/>
               </Col>
               <Col xl='7 col-12'>
                 <div className='blog-details'>

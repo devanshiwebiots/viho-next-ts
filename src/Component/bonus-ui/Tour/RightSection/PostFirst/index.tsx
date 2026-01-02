@@ -15,7 +15,7 @@ const PostFirst = () => {
           <div className='post-body'>
             <div className='img-container'>
               <div className='my-gallery' id='aniimated-thumbnials'>
-                <Image height={317} width={1102} itemProp='thumbnail' className='img-fluid rounded media' src={`${AssetsImagePath}/user-profile/post1.jpg`} alt='gallery' />
+                <Image height={317} width={1102} itemProp='thumbnail' className='img-fluid rounded media' src={`${AssetsImagePath}/user-profile/post1.jpg`} alt='gallery' unoptimized/>
               </div>
             </div>
             <br />

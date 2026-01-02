@@ -15,10 +15,10 @@ const FriendsTab = () => {
           <Col md='6' xl='4' lg='6' className='box-col-6' key={i}>
             <Card className='custom-card'>
               <CardHeader className='p-0'>
-                <Image height={300} width={700} src={`${AssetsImagePath}/${item.card_bg}`} className='img-fluid' alt='user' />
+                <Image height={300} width={700} src={`${AssetsImagePath}/${item.card_bg}`} className='img-fluid' alt='user' unoptimized/>
               </CardHeader>
               <div className='card-profile'>
-                <Image height={100} width={100} src={`${AssetsImagePath}/${item.avatar}`} className='rounded-circle mx-auto' alt='user' />
+                <Image height={100} width={100} src={`${AssetsImagePath}/${item.avatar}`} className='rounded-circle mx-auto' alt='user' unoptimized/>
               </div>
               <SocialMediaIcons listClassName='card-social' />
               <div onClick={() => router.push('/user/userprofile')} className='text-center profile-details'>

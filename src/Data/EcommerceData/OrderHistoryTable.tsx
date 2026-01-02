@@ -4,7 +4,7 @@ import { MoreVertical } from 'react-feather';
 
 export const OrderHistoryTableData = [
   {
-    Image: <Image height={30} width={30} className='img-fluid img-50' src={`${AssetsImagePath}/product/1.png`} alt='#' />,
+    Image: <Image height={30} width={30} className='img-fluid img-50' src={`${AssetsImagePath}/product/1.png`} alt='#' unoptimized/>,
     productName: (
       <div className='product-name'>
         <a href={Javascript}>Long Top</a>
@@ -23,7 +23,7 @@ export const OrderHistoryTableData = [
     icon: <MoreVertical />,
   },
   {
-    Image: <Image height={30} width={30} className='img-fluid img-50' src={`${AssetsImagePath}/product/13.png`} alt='#' />,
+    Image: <Image height={30} width={30} className='img-fluid img-50' src={`${AssetsImagePath}/product/13.png`} alt='#' unoptimized/>,
     productName: (
       <div className='product-name'>
         <a href={Javascript}>Fancy watch</a>
@@ -40,7 +40,7 @@ export const OrderHistoryTableData = [
     icon: <MoreVertical />,
   },
   {
-    Image: <Image height={30} width={30} className='img-fluid img-50' src={`${AssetsImagePath}/product/2.png`} alt='#' />,
+    Image: <Image height={30} width={30} className='img-fluid img-50' src={`${AssetsImagePath}/product/2.png`} alt='#' unoptimized/>,
     productName: (
       <div className='product-name'>
         <a href={Javascript}>Man Shoes</a>
@@ -58,7 +58,7 @@ export const OrderHistoryTableData = [
   },
 
   {
-    Image: <Image height={30} width={30} className='img-fluid img-50' src={`${AssetsImagePath}/product/10.png`} alt='#' />,
+    Image: <Image height={30} width={30} className='img-fluid img-50' src={`${AssetsImagePath}/product/10.png`} alt='#' unoptimized/>,
     productName: (
       <div className='product-name'>
         <a href={Javascript}>Ledis side bag</a>
@@ -76,7 +76,7 @@ export const OrderHistoryTableData = [
   },
 
   {
-    Image: <Image height={30} width={30} className='img-fluid img-50' src={`${AssetsImagePath}/product/12.png`} alt='#' />,
+    Image: <Image height={30} width={30} className='img-fluid img-50' src={`${AssetsImagePath}/product/12.png`} alt='#' unoptimized/>,
     productName: (
       <div className='product-name'>
         <a href={Javascript}>Ledis Slipper</a>
@@ -93,7 +93,7 @@ export const OrderHistoryTableData = [
     icon: <MoreVertical />,
   },
   {
-    Image: <Image height={30} width={30} className='img-fluid img-50' src={`${AssetsImagePath}/product/13.png`} alt='#' />,
+    Image: <Image height={30} width={30} className='img-fluid img-50' src={`${AssetsImagePath}/product/13.png`} alt='#' unoptimized/>,
     productName: (
       <div className='product-name'>
         <a href={Javascript}>Fancy ledis Jacket</a>
@@ -110,7 +110,7 @@ export const OrderHistoryTableData = [
     icon: <MoreVertical />,
   },
   {
-    Image: <Image height={30} width={30} className='img-fluid img-50' src={`${AssetsImagePath}/product/14.png`} alt='#' />,
+    Image: <Image height={30} width={30} className='img-fluid img-50' src={`${AssetsImagePath}/product/14.png`} alt='#' unoptimized/>,
     productName: (
       <div className='product-name'>
         <a href={Javascript}>Ledis Handbag</a>
@@ -127,7 +127,7 @@ export const OrderHistoryTableData = [
     icon: <MoreVertical />,
   },
   {
-    Image: <Image height={30} width={30} className='img-fluid img-50' src={`${AssetsImagePath}/product/15.png`} alt='#' />,
+    Image: <Image height={30} width={30} className='img-fluid img-50' src={`${AssetsImagePath}/product/15.png`} alt='#' unoptimized/>,
     productName: (
       <div className='product-name'>
         <a href={Javascript}>Iphone6 mobile</a>
@@ -144,7 +144,7 @@ export const OrderHistoryTableData = [
     icon: <MoreVertical />,
   },
   {
-    Image: <Image height={30} width={30} className='img-fluid img-50' src={`${AssetsImagePath}/product/14.png`} alt='#' />,
+    Image: <Image height={30} width={30} className='img-fluid img-50' src={`${AssetsImagePath}/product/14.png`} alt='#' unoptimized/>,
     productName: (
       <div className='product-name'>
         <a href={Javascript}>Watch</a>

@@ -6,10 +6,10 @@
 @import 'animate.scss';
 
 // Datepicker
-@import '~react-datepicker/dist/react-datepicker.css';
+@import 'react-datepicker/dist/react-datepicker.css';
 
 //LeafLet
-@import '~leaflet/dist/leaflet.css';
+@import 'leaflet/dist/leaflet.css';
 @import 'vendors/fontawesome.scss';
 @import 'vendors/icofont.scss';
 @import 'vendors/themify.scss';
@@ -17,7 +17,7 @@
 @import 'responsive.scss';
 @import './react_plugin';
 @import 'photoswipe/dist/photoswipe.css';
-@import '/public/assets/scss/vendors/whether-icon.scss';
+@import '../../assets/scss/vendors/whether-icon.scss';
 
 //tour
 @import "@sjmc11/tourguidejs/src/scss/tour.scss";

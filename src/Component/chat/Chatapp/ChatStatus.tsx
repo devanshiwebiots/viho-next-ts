@@ -48,7 +48,7 @@ const ChatStatus = () => {
                 ))}
             </ListGroup>
           ) : (
-            <Image className='img-fluid m-auto' height={50} width={50} src={`${AssetsImagePath}/search-not-found.png`} alt='search-not-found' />
+            <Image className='img-fluid m-auto' height={50} width={50} src={`${AssetsImagePath}/search-not-found.png`} alt='search-not-found' unoptimized/>
           )}
         </div>
       </div>

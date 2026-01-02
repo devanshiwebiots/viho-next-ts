@@ -20,7 +20,7 @@ const NavOrg = ({ callback }: NavOrgpropType) => {
                 callback(item.activeTab);
               }}>
               <Media>
-                <Image width={50} height={50} className='p-0 img-50 img-fluid m-r-20 rounded-circle' src={`${AssetsImagePath}/${item.img}`} alt='Image' />
+                <Image width={50} height={50} className='p-0 img-50 img-fluid m-r-20 rounded-circle' src={`${AssetsImagePath}/${item.img}`} alt='Image' unoptimized/>
                 <Media body>
                   <h6>{item.name}</h6>
                   <p>{item.email}</p>

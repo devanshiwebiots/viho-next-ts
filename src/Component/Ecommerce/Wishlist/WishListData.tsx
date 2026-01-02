@@ -28,7 +28,7 @@ const WishListData = () => {
           <Col xl='2' md='4' sm='6' key={item.id} className='box-col-3'>
             <div className='prooduct-details-box'>
               <Media>
-                <Image width={195} height={213} className='align-self-center img-fluid w-100' src={`${AssetsImagePath}/${item.img}`} alt='#' />
+                <Image width={195} height={213} className='align-self-center img-fluid w-100' src={`${AssetsImagePath}/${item.img}`} alt='#' unoptimized/>
                 <Media body>
                   {' '}
                   <div className='product-name'>

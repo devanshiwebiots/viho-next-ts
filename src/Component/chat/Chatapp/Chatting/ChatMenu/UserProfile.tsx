@@ -7,7 +7,7 @@ const UserProfile = () => {
     <div className='user-profile'>
       <div className='image'>
         <div className='avatar text-center'>
-          <Image alt='user' width={52} height={52} src={`${AssetsImagePath}/user/2.png`} />
+          <Image alt='user' width={52} height={52} src={`${AssetsImagePath}/user/2.png`} unoptimized/>
         </div>
         <div className='icon-wrapper'>
           <i className='icofont icofont-pencil-alt-5' />

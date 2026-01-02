@@ -25,7 +25,7 @@ const GridGallery = () => {
                         <Item original={`${AssetsImagePath}/${item}`} width="1500" height="850">
                           {({ ref, open }) => (
                             <Link href={Javascript} onClick={open}>
-                              <Image height={500} width={500} className="img-thumbnail mb-4 p-2" ref={ref} src={`${AssetsImagePath}/${item}`} alt="image" />
+                              <Image height={500} width={500} className="img-thumbnail mb-4 p-2" ref={ref} src={`${AssetsImagePath}/${item}`} alt="image" unoptimized/>
                             </Link>
                           )}
                         </Item>

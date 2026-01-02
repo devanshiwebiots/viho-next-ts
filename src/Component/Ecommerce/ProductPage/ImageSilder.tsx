@@ -32,7 +32,7 @@ const ImageSlider = () => {
           <Slider arrows={false} asNavFor={nav1!} ref={(slider2) => setNav2(slider2)} slidesToShow={3} vertical={true} swipeToSlide={true} focusOnSelect={true}>
             {productData &&
               productData.map((item) => {
-                return item.variants.map((items, id) => <Image height={140} width={128} src={`${AssetsImagePath}/${items.images}`} alt={'img'} className='img-fluid' key={id} />);
+                return item.variants.map((items, id) => <Image height={140} width={128} src={`${AssetsImagePath}/${items.images}`} alt={'img'} className='img-fluid' key={id} unoptimized/>);
               })}
           </Slider>
         </div>

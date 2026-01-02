@@ -63,7 +63,7 @@ const LeftFileManager = () => {
                       <Button size='xs' color='primary' outline>
                         {Selected}
                       </Button>
-                      <Image className='bg-img' src={`${AssetsImagePath}/dashboard/folder.png`} alt='' height={100} width={100} />
+                      <Image className='bg-img' src={`${AssetsImagePath}/dashboard/folder.png`} alt='' height={100} width={100} unoptimized/>
                     </div>
                   </li>
                   <li>
@@ -74,7 +74,7 @@ const LeftFileManager = () => {
                       <Button size='xs' color='primary' outline>
                         {ContactUs}
                       </Button>
-                      <Image className='bg-img' src={`${AssetsImagePath}/dashboard/folder1.png`} alt='' height={100} width={100} />
+                      <Image className='bg-img' src={`${AssetsImagePath}/dashboard/folder1.png`} alt='' height={100} width={100} unoptimized/>
                     </div>
                   </li>
                 </ul>

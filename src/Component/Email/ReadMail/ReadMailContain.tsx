@@ -17,7 +17,7 @@ const MailContain = () => {
                     <Row>
                       <Col xl='12'>
                         <Media>
-                          <Image className='me-3 rounded-circle' height={48} width={48} src={`${AssetsImagePath}/user/user.png`} alt='' />
+                          <Image className='me-3 rounded-circle' height={48} width={48} src={`${AssetsImagePath}/user/user.png`} alt='' unoptimized/>
                           <Media body>
                             <h6 className='d-block'>John Deo</h6>
                             <p>Mattis luctus.Donec nisi diam text.</p>
@@ -49,13 +49,13 @@ const MailContain = () => {
                       <div className='attachment'>
                         <ListGroup attrUL={{ className: 'd-flex flex-row' }}>
                           <ListGroupItem>
-                            <Image height={90} width={90} className='img-fluid' src={`${AssetsImagePath}/email/1.jpg`} alt='' />
+                            <Image height={90} width={90} className='img-fluid' src={`${AssetsImagePath}/email/1.jpg`} alt='' unoptimized/>
                           </ListGroupItem>
                           <ListGroupItem>
-                            <Image height={90} width={90} className='img-fluid' src={`${AssetsImagePath}/email/2.jpg`} alt='' />
+                            <Image height={90} width={90} className='img-fluid' src={`${AssetsImagePath}/email/2.jpg`} alt='' unoptimized/>
                           </ListGroupItem>
                           <ListGroupItem>
-                            <Image height={90} width={90} className='img-fluid' src={`${AssetsImagePath}/email/3.jpg`} alt='' />
+                            <Image height={90} width={90} className='img-fluid' src={`${AssetsImagePath}/email/3.jpg`} alt='' unoptimized/>
                           </ListGroupItem>
                         </ListGroup>
                       </div>

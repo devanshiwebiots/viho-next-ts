@@ -22,7 +22,7 @@ const ListViewCard = () => {
             <div className='job-search'>
               <CardBody>
                 <div className='d-flex'>
-                  <Image height={40} width={40} className=' m-r-20' src={`${AssetsImagePath}/${item.logo}`} alt='job logo' />
+                  <Image height={40} width={40} className=' m-r-20' src={`${AssetsImagePath}/${item.logo}`} alt='job logo' unoptimized/>
                   <div className='flex-grow-1'>
                     <h6>
                       <Link href={`/job/job-details`}>{item.job_name}</Link>

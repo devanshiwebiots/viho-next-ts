@@ -56,7 +56,7 @@ const SlickSlider = ({ slides, rtl, title, lazyLoad, autoplay, focusOnSelect }: 
         <Slider {...settings}>
           {data.map((item, index) => (
             <div className='item' key={index}>
-              <Image src={`${AssetsImagePath}/slider/${item}.jpg`} alt='Carousel image' width={503} height={334} className='img-fluid' />
+              <Image src={`${AssetsImagePath}/slider/${item}.jpg`} alt='Carousel image' width={503} height={334} className='img-fluid' unoptimized/>
             </div>
           ))}
         </Slider>

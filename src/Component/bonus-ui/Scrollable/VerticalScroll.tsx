@@ -14,7 +14,7 @@ const VerticalScroll = () => {
         <CardBody>
           <ScrollBar className='scroll-vertical' options={{ suppressScrollX: true }}>
             <div>
-              <Image src={`${AssetsImagePath}/banner/3.jpg`} alt='Vertical scroll image' height={600} width={704} />
+              <Image src={`${AssetsImagePath}/banner/3.jpg`} alt='Vertical scroll image' height={600} width={704} unoptimized/>
             </div>
           </ScrollBar>
         </CardBody>

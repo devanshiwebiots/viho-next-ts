@@ -74,7 +74,7 @@ const ProductPlaceOrder = () => {
                 <Label className="d-flex align-items-center" htmlFor="edo-ani2">
                   <Input className="radio_animated" id="edo-ani2" type="radio" name="rdo-ani" defaultChecked />
                   {PayPal}
-                  <Image width={428} height={113} className="img-paypal w-auto" src={`${AssetsImagePath}/checkout/paypal.png`} alt="" />
+                  <Image width={428} height={113} className="img-paypal w-auto" src={`${AssetsImagePath}/checkout/paypal.png`} alt="" unoptimized/>
                 </Label>
               </Col>
             </Row>

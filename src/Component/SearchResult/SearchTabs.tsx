@@ -27,7 +27,7 @@ const SearchTabs = ({ callbackActive }: SearchTabType) => {
               setActiveTab('2');
               callbackActive('2');
             }}>
-            <Image className='icon-image' />
+            <Image className='icon-image'/>
             &nbsp;Images
           </NavLink>
           <div className='material-border'></div>

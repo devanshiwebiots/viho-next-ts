@@ -13,7 +13,7 @@ const RegisterBgImg = () => {
         <Container fluid={true} className='p-0'>
           <Row className='m-0'>
             <Col xl='5'>
-              <Image height={927} width={770} className='bg-img-cover bg-center' src={`${AssetsImagePath}/login/3.jpg`} alt='looginpage' />
+              <Image height={927} width={770} className='bg-img-cover bg-center' src={`${AssetsImagePath}/login/3.jpg`} alt='looginpage' unoptimized/>
             </Col>
             <Col xl='7 ' className='p-0'>
               <RegisterFrom />

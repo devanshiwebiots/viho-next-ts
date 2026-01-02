@@ -13,7 +13,7 @@ const BottomSection = () => {
           <Card>
             <div className='blog-box blog-grid'>
               <div className='blog-wrraper'>
-                <Image height={200} width={200} className='img-fluid top-radius-blog' src={`${AssetsImagePath}/blog/${item.image}`} alt='' />
+                <Image height={200} width={200} className='img-fluid top-radius-blog' src={`${AssetsImagePath}/blog/${item.image}`} alt='' unoptimized/>
               </div>
               <div className='blog-details-second'>
                 <div className='blog-post-date'>

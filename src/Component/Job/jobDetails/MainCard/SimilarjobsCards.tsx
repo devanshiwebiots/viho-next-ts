@@ -22,7 +22,7 @@ const SimilarjobsCards = ({ limit, jobClass, ribbion, col12 }: SimilarjobsCardsT
             <div className='job-search'>
               <CardBody>
                 <div className='d-flex '>
-                  <Image width={40} height={40} className=' m-r-20' src={`${AssetsImagePath}/${item.logo}`} alt='' />
+                  <Image width={40} height={40} className=' m-r-20' src={`${AssetsImagePath}/${item.logo}`} alt='' unoptimized/>
                   <div className='flex-grow-1'>
                     <h6>
                       <Link href={`${process.env.PUBLIC_URL}/apps/job/job-details`}>{item.job_name}</Link>

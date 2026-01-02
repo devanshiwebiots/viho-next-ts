@@ -12,7 +12,7 @@ const LoginTooltip = () => {
       <Container fluid={true} className='p-0'>
         <Row>
           <Col xl='5'>
-            <Image width={770} height={927} className='bg-img-cover bg-center' src={`${AssetsImagePath}/login/3.jpg`} alt='looginpage' />
+            <Image width={770} height={927} className='bg-img-cover bg-center' src={`${AssetsImagePath}/login/3.jpg`} alt='looginpage' unoptimized/>
           </Col>
           <Col xl='7 p-0'>
             <LoginForm />

@@ -44,14 +44,14 @@ const EMIs = () => {
             <FormGroup className='mb-3 col-12'>
               <ListGroup className=' payment-opt d-flex flex-row'>
                 <ListGroupItem>
-                  <Image width={33} height={20} src={`${AssetsImagePath}/ecommerce/mastercard.png`} alt='' />{' '}
+                  <Image width={33} height={20} src={`${AssetsImagePath}/ecommerce/mastercard.png`} alt='' unoptimized/>{' '}
                 </ListGroupItem>
                 <ListGroupItem>
                   {' '}
-                  <Image width={63} height={20} src={`${AssetsImagePath}/ecommerce/visa.png`} alt='' />
+                  <Image width={63} height={20} src={`${AssetsImagePath}/ecommerce/visa.png`} alt='' unoptimized/>
                 </ListGroupItem>
                 <ListGroupItem>
-                  <Image width={77} height={20} src={`${AssetsImagePath}/ecommerce/paypal.png`} alt='' />
+                  <Image width={77} height={20} src={`${AssetsImagePath}/ecommerce/paypal.png`} alt='' unoptimized/>
                 </ListGroupItem>
               </ListGroup>
             </FormGroup>

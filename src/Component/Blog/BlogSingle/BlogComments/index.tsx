@@ -15,7 +15,7 @@ const BlogComments = () => {
               <ListGroupItem>
                 <Col tag={item.class ? 'ul' : 'div'}>
                   <Media className='align-self-center'>
-                    <Image height={50} width={50} className='align-self-center' src={`${AssetsImagePath}/blog/comment.jpg`} alt='' />
+                    <Image height={50} width={50} className='align-self-center' src={`${AssetsImagePath}/blog/comment.jpg`} alt='' unoptimized/>
                     <Media body>
                       <Row>
                         <Col md='4'>

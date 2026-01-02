@@ -39,7 +39,7 @@ const ProductModal = (props: any) => {
         <ModalHeader toggle={onCloseModal}>
           <Row className='product-box'>
             <Col md='6' className='product-img'>
-              <Image alt='image' className='img-fluid' height={403} width={370} src={props.modelData.img ? `${AssetsImagePath}/${props.modelData.img}` : ''} />
+              <Image alt='image' className='img-fluid' height={403} width={370} src={props.modelData.img ? `${AssetsImagePath}/${props.modelData.img}` : ''} unoptimized/>
             </Col>
             <Col md='6' className='product-details text-start'>
               <h4>{props.modelData.name}</h4>

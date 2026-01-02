@@ -45,7 +45,7 @@ const TopDealerCard = () => {
                   <div className='item' key={item.id}>
                     <Card>
                       <div className='top-dealerbox text-center'>
-                        <Image className='card-img-top' height={50} width={50} src={item.img} alt='' />
+                        <Image className='card-img-top' height={50} width={50} src={item.img} alt='' unoptimized/>
                         <h6>{item.name}</h6>
                         <p>{item.place}</p>
                         <Link className='btn btn-rounded' href={`/users/userProfile`}>
@@ -64,7 +64,7 @@ const TopDealerCard = () => {
                   <div className='item' key={item.id}>
                     <Card>
                       <div className='top-dealerbox text-center'>
-                        <Image className='card-img-top' height={50} width={50} src={item.img} alt='...' />
+                        <Image className='card-img-top' height={50} width={50} src={item.img} alt='...' unoptimized/>
                         <h6>{item.name}</h6>
                         <p>{item.place}</p>
                         <Link className='btn btn-rounded' href={`/users/userProfile`}>

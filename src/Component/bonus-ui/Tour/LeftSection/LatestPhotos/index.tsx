@@ -27,7 +27,7 @@ const LatestPhotos = () => {
               {LatestPhotosData.map((item, index) => (
                 <li key={index}>
                   <div className='latest-post'>
-                    <Image className='img-fluid' width={50} height={50} alt='' src={`${AssetsImagePath}/social-app/post-${item.img}.png`} />
+                    <Image className='img-fluid' width={50} height={50} alt='' src={`${AssetsImagePath}/social-app/post-${item.img}.png`} unoptimized/>
                   </div>
                 </li>
               ))}

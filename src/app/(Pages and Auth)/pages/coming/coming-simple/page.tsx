@@ -13,7 +13,7 @@ const ComingSimple = () => {
           <div className='comingsoon'>
             <div className='comingsoon-inner text-center'>
               <a href='index.html'>
-                <Image height={111} width={80} src={`${AssetsImagePath}/logo/logo-1.png`} alt='' className='img-fluid mx-auto media' />
+                <Image height={111} width={80} src={`${AssetsImagePath}/logo/logo-1.png`} alt='' className='img-fluid mx-auto media' unoptimized/>
               </a>
               <h5>WE ARE COMING SOON</h5>
               <div className='countdown' id='clockdiv'>

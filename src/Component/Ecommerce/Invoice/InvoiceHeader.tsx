@@ -11,7 +11,7 @@ const InvoiceHeader = () => {
         <Media>
           <div className='media-left'>
             <Link href={`/dashboard/default`}>
-              <Image className='media-object img-60' height={83} width={60} src={`${AssetsImagePath}/logo/logo-1.png`} alt='' />
+              <Image className='media-object img-60' height={83} width={60} src={`${AssetsImagePath}/logo/logo-1.png`} alt='' unoptimized/>
             </Link>
           </div>
           <Media body className='m-l-20'>

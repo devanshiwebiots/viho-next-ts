@@ -11,7 +11,7 @@ const Timeline5 = () => {
       </div>
       <div className="cd-timeline-content">
         <h4 className="vertical-timeline-element-subtitle">Title of section 5</h4>
-        <Image className="img-fluid p-t-20" src={`${AssetsImagePath}/banner/3.jpg`} width={472} height={333} alt="timelineImg2" />
+        <Image className="img-fluid p-t-20" src={`${AssetsImagePath}/banner/3.jpg`} width={472} height={333} alt="timelineImg2" unoptimized/>
         <span className="cd-date">Feb 18</span>
       </div>
     </div>

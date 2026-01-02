@@ -24,7 +24,7 @@ const Followers = () => {
           <CardBody className='social-list filter-cards-view'>
             {FollowersData.map((item, i) => (
               <Media key={i}>
-                <Image height={50} width={50} className='img-50 img-fluid m-r-20 rounded-circle' alt='' src={`${AssetsImagePath}/user/${item.img}.jpg`} />
+                <Image height={50} width={50} className='img-50 img-fluid m-r-20 rounded-circle' alt='' src={`${AssetsImagePath}/user/${item.img}.jpg`} unoptimized/>
                 <div className='media-body'>
                   <span className='d-block'>{item.name}</span>
                   <a href={Javascript}>{AddFriend}</a>

@@ -17,7 +17,7 @@ const Comments = () => {
             <ListGroup>
               <ListGroupItem>
                 <Media>
-                  <Image height={100} width={100} src={`${AssetsImagePath}/blog/9.jpg`} alt='' />
+                  <Image height={100} width={100} src={`${AssetsImagePath}/blog/9.jpg`} alt='' unoptimized/>
                   <Media body>
                     <Row>
                       <Col xl='12'>

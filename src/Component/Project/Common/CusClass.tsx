@@ -10,7 +10,7 @@ const CusClass = ({ item }: any) => {
         <Badge className={` ${item.badge === 'Done' ? 'badge-secondary' : 'badge-success'}`}>{item.badge}</Badge>
         <h6>{item.title}</h6>
         <Media>
-          <Image className='img-20 me-1 rounded-circle' src={`${AssetsImagePath}/${item.img}`} alt='' width={20} height={20} />
+          <Image className='img-20 me-1 rounded-circle' src={`${AssetsImagePath}/${item.img}`} alt='' width={20} height={20} unoptimized/>
           <Media body>
             <p>{item.sites}</p>
           </Media>
@@ -41,13 +41,13 @@ const CusClass = ({ item }: any) => {
         <div className='customers'>
           <ListGroup>
             <ListGroupItem className='d-inline-block'>
-              <Image width={30} height={30} className='img-30 rounded-circle' src={`${AssetsImagePath}/${item.customers_img1}`} alt='' />
+              <Image width={30} height={30} className='img-30 rounded-circle' src={`${AssetsImagePath}/${item.customers_img1}`} alt='' unoptimized/>
             </ListGroupItem>
             <ListGroupItem className='d-inline-block'>
-              <Image width={30} height={30} className='img-30 rounded-circle' src={`${AssetsImagePath}/${item.customers_img2}`} alt='' />
+              <Image width={30} height={30} className='img-30 rounded-circle' src={`${AssetsImagePath}/${item.customers_img2}`} alt='' unoptimized/>
             </ListGroupItem>
             <ListGroupItem className='d-inline-block'>
-              <Image width={30} height={30} className='img-30 rounded-circle' src={`${AssetsImagePath}/${item.customers_img3}`} alt='' />
+              <Image width={30} height={30} className='img-30 rounded-circle' src={`${AssetsImagePath}/${item.customers_img3}`} alt='' unoptimized/>
             </ListGroupItem>
             <ListGroupItem className='d-inline-block ms-2'>
               <p className='f-12'>{`+${item.like} More`}</p>

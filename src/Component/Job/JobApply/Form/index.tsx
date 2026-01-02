@@ -13,7 +13,7 @@ const JobApply = () => {
       <div className='job-search'>
         <CardBody className='pb-0'>
           <div className='d-flex '>
-            <Image height={40} width={40} className='m-r-20' src={`${AssetsImagePath}/job-search/1.jpg`} alt='' />
+            <Image height={40} width={40} className='m-r-20' src={`${AssetsImagePath}/job-search/1.jpg`} alt='' unoptimized/>
             <div className='flex-grow-1'>
               <h6 className='f-w-600'>
                 <a href={Href}>{UIDesigner}</a>

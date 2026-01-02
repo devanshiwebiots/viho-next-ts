@@ -29,7 +29,7 @@ const InboxClass = () => {
                     <Input className='checkbox_animated' id='chk-ani' type='checkbox' />
                   </Label>
                   <Star className='like' />
-                  <Image height={20} width={20} className='me-3 rounded-circle' src={`${AssetsImagePath}/${item.image}`} alt='' />
+                  <Image height={20} width={20} className='me-3 rounded-circle' src={`${AssetsImagePath}/${item.image}`} alt='' unoptimized/>
                 </div>
                 <Link href={`/email/readmail`}>
                   <Media

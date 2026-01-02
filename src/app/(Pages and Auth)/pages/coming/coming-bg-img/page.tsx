@@ -14,7 +14,7 @@ const ComingBgImg = () => {
           <div className='comingsoon comingsoon-bgimg'>
             <div className='comingsoon-inner text-center'>
               <a href='index.html'>
-                <Image width={80} height={111} src={`${AssetsImagePath}/logo/logo-1.png`} alt='' className='img-fluid mx-auto media' />
+                <Image width={80} height={111} src={`${AssetsImagePath}/logo/logo-1.png`} alt='' className='img-fluid mx-auto media' unoptimized/>
               </a>
               <h5>WE ARE COMING SOON</h5>
               <div className='countdown' id='clockdiv'>

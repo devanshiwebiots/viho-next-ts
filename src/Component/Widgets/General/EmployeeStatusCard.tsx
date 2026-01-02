@@ -30,7 +30,7 @@ const EmployeeStatusCard = () => {
                   <tr key={item.id}>
                     <td className='bd-t-none u-s-tb'>
                       <div className='align-middle image-sm-size'>
-                        <Image className='img-radius align-top m-r-15 rounded-circle d-inline' width={41} height={41} src={`${AssetsImagePath}${item.img}`} alt='' />
+                        <Image className='img-radius align-top m-r-15 rounded-circle d-inline' width={41} height={41} src={`${AssetsImagePath}${item.img}`} alt='' unoptimized/>
                         <div className='d-inline-block'>
                           <h6>
                             <Link href={`/users/userProfile`}>{item.name}</Link>

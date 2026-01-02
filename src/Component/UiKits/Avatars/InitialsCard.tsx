@@ -13,11 +13,11 @@ const InitialsCard = () => {
         <CardBody className='avatar-showcase'>
           <div className='avatars'>
             <div className='avatar'>
-              <Image className='rounded-circle' width={100} height={100} src={`${AssetsImagePath}/user/16.png`} alt='Initial card image' />
+              <Image className='rounded-circle' width={100} height={100} src={`${AssetsImagePath}/user/16.png`} alt='Initial card image' unoptimized/>
             </div>
             {SizingCardData.map((element, index) => (
               <div key={index} className='avatar'>
-                <Image className='rounded-circle' width={element} height={element} src={`${AssetsImagePath}/user/16.png`} alt='Initial card image' />
+                <Image className='rounded-circle' width={element} height={element} src={`${AssetsImagePath}/user/16.png`} alt='Initial card image' unoptimized/>
               </div>
             ))}
           </div>

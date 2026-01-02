@@ -15,7 +15,7 @@ const PostThird = () => {
           <div className='post-body'>
             <div className='img-container'>
               <div className='my-gallery' id='aniimated-thumbnials'>
-                <Image height={2999} width={1102} className='img-fluid rounded' src={`${AssetsImagePath}/user-profile/bg-profile.jpg`} itemProp='thumbnail' alt='gallery' />
+                <Image height={2999} width={1102} className='img-fluid rounded' src={`${AssetsImagePath}/user-profile/bg-profile.jpg`} itemProp='thumbnail' alt='gallery' unoptimized/>
               </div>
             </div>
             <br />

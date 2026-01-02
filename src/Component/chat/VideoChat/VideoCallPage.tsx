@@ -9,7 +9,7 @@ const VideoCallPage = () => {
     <Col className='pr-xl-0 chat-right-aside'>
       <div className='chat'>
         <div className='chat-header clearfix'>
-          <Image className='rounded-circle' height={52} width={52} src={`${AssetsImagePath}/user/8.jpg`} alt='user' />
+          <Image className='rounded-circle' height={52} width={52} src={`${AssetsImagePath}/user/8.jpg`} alt='user' unoptimized/>
           <div className='about'>
             <div className='name'>
               Kori Thomas&nbsp;&nbsp;

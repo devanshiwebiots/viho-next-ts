@@ -13,7 +13,7 @@ const EditMyProfile = () => {
           <form onSubmit={(event) => event.preventDefault()}>
             <Row className='mb-2'>
               <Col className='col-auto'>
-                <Image width={70} height={70} className='img-70 rounded-circle' alt='edit-user' src={`${AssetsImagePath}/user/7.jpg`} />
+                <Image width={70} height={70} className='img-70 rounded-circle' alt='edit-user' src={`${AssetsImagePath}/user/7.jpg`} unoptimized/>
               </Col>
               <Col>
                 <h3 className='mb-1'>{MarkJecno}</h3> <p className='mb-4'>{Designer}</p>

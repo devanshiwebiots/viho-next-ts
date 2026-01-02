@@ -50,7 +50,7 @@ const ContactDetailsClass = ({ selectedUser, userEditCallback }: ContactDetailsC
       {selectedUser ? (
         <div className='profile-mail'>
           <div className='d-flex'>
-            <Image height={100} width={100} className=' m-r-20 rounded-circle update_img_0' src={`${selectedUser.avatar}`} alt='' />
+            <Image height={100} width={100} className=' m-r-20 rounded-circle update_img_0' src={`${selectedUser.avatar}`} alt='' unoptimized/>
             <div className='flex-grow-1 mt-0'>
               <h5>
                 <span className='first_name_0'>{selectedUser.name}</span> <span className='last_name_0'>{selectedUser.surname}</span>

@@ -13,7 +13,7 @@ const LoginOne = () => {
         <Container fluid={true}>
           <Row>
             <Col xl='5'>
-              <Image className='bg-img-cover bg-center' width={770} height={927} src={`${AssetsImagePath}/login/3.jpg`} alt='looginpage' />
+              <Image className='bg-img-cover bg-center' width={770} height={927} src={`${AssetsImagePath}/login/3.jpg`} alt='looginpage' unoptimized/>
             </Col>
             <Col xl='7 ' className='p-0'>
               <LoginForm />

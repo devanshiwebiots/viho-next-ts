@@ -7,7 +7,7 @@ const HeaderProfile = () => {
   return (
     <div className='d-flex'>
       <div className='media-size-email'>
-        <Image height={52} width={52} className='me-3 rounded-circle' src={`${AssetsImagePath}/user/user.png`} alt='Image' />
+        <Image height={52} width={52} className='me-3 rounded-circle' src={`${AssetsImagePath}/user/user.png`} alt='Image' unoptimized/>
       </div>
       <div className='flex-grow-1'>
         <h6 className='f-w-600'>

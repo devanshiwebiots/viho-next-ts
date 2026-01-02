@@ -36,7 +36,7 @@ const CreditCards = () => {
                 </Form>
               </Col>
               <Col md='5' className='text-center'>
-                <Image width={352} height={235} className='img-fluid' src={`${AssetsImagePath}/ecommerce/card.png`} alt='' />
+                <Image width={352} height={235} className='img-fluid' src={`${AssetsImagePath}/ecommerce/card.png`} alt='' unoptimized/>
               </Col>
             </Row>
           </CardBody>

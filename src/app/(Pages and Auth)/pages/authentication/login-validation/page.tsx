@@ -13,7 +13,7 @@ const LoginValidation = () => {
         <Container fluid={true}>
           <Row>
             <Col xl='7 ' className='order-1'>
-              <Image height={748} width={838} className='bg-img-cover bg-center' src={`${AssetsImagePath}/login/1.jpg`} alt='looginpage' />
+              <Image height={748} width={838} className='bg-img-cover bg-center' src={`${AssetsImagePath}/login/1.jpg`} alt='looginpage' unoptimized/>
             </Col>
             <Col xl='5 ' className='p-0'>
               <LoginForm />

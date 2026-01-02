@@ -16,7 +16,7 @@ const PeopleYouMayKnow = ({ heading }: PeopleYouMayKnowProps) => {
               {PeopleYouMayKnowData.map((item, i) => (
                 <li key={i}>
                   <div className='add-friend text-center'>
-                    <Image height={30} width={40} className='img-60 img-fluid rounded-circle' alt='user' src={`${AssetsImagePath}/user/${item.peopleImageName}`} />
+                    <Image height={30} width={40} className='img-60 img-fluid rounded-circle' alt='user' src={`${AssetsImagePath}/user/${item.peopleImageName}`} unoptimized/>
                     <span className='d-block f-w-600'>{item.peopleName}</span>
                     <Button color='primary' size='xs'>
                       {AddFriend}

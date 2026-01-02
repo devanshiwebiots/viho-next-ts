@@ -14,7 +14,7 @@ const BottomLearningList = () => {
           <Card>
             <div className='product-box learning-box'>
               <div className='product-img'>
-                <Image height={500} width={500} className='img-fluid top-radius-blog' src={`${AssetsImagePath}/faq/${item.image}.jpg`} alt='' />
+                <Image height={500} width={500} className='img-fluid top-radius-blog' src={`${AssetsImagePath}/faq/${item.image}.jpg`} alt='' unoptimized/>
                 <div className='product-hover'>
                   <ul>
                     <li>

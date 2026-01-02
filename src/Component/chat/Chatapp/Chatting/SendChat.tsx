@@ -46,7 +46,7 @@ const SendChat = () => {
         <Col xl="12" className="d-flex">
           <div className='smiley-box bg-primary'>
             <div className='picker' onClick={() => setShowEmojiPicker(!showEmojiPicker)}>
-              <Image width={28} height={29} src={`${AssetsImagePath}/smiley.png`} alt='smiley' />
+              <Image width={28} height={29} src={`${AssetsImagePath}/smiley.png`} alt='smiley' unoptimized/>
             </div>
           </div>
           <InputGroup className="text-box">

@@ -23,7 +23,7 @@ const TopSellingCard = () => {
       </CardHeader>
       <CardBody>
         <Media>
-          <Image className='img-fluid' height={63} width={76} src={`${AssetsImagePath}/dashboard-2/9.png`} alt='' />
+          <Image className='img-fluid' height={63} width={76} src={`${AssetsImagePath}/dashboard-2/9.png`} alt='' unoptimized/>
           <Media body>
             <Link href={'/app/ecommerce/product'}>
               <h6>Trending Nike shoes</h6>

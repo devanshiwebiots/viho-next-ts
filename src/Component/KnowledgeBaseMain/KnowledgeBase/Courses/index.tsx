@@ -16,7 +16,7 @@ const Courses = () => {
           <Col key={i} xl='3' sm='6' className=' box-col-6'>
             <Card className=' features-faq product-box'>
               <div className='faq-image product-img'>
-                <Image height={100} width={300} className='img-fluid ' src={`${AssetsImagePath}/faq/${item.image}`} alt='' />
+                <Image height={100} width={300} className='img-fluid ' src={`${AssetsImagePath}/faq/${item.image}`} alt='' unoptimized/>
                 <div className='product-hover'>
                   <ul>
                     <li>

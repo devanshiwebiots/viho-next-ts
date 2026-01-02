@@ -44,7 +44,7 @@ const CartData = () => {
                         item.quantity && (
                           <tr key={i}>
                             <td>
-                              <Image height={43} width={40} className='img-fluid img-40' src={`${AssetsImagePath}/${item.img}`} alt='#' />
+                              <Image height={43} width={40} className='img-fluid img-40' src={`${AssetsImagePath}/${item.img}`} alt='#' unoptimized/>
                             </td>
                             <td>
                               <div className='product-name'>

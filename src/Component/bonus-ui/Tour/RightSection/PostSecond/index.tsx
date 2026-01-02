@@ -16,10 +16,10 @@ const PostSecond = () => {
             <div className='img-container'>
               <Row className=' mt-4 pictures my-gallery' id='aniimated-thumbnials-2'>
                 <Col sm='6'>
-                  <Image height={249} width={539} className='img-fluid rounded' src={`${AssetsImagePath}/user-profile/post2.jpg`} itemProp='thumbnail' alt='gallery' />
+                  <Image height={249} width={539} className='img-fluid rounded' src={`${AssetsImagePath}/user-profile/post2.jpg`} itemProp='thumbnail' alt='gallery' unoptimized/>
                 </Col>
                 <Col sm='6'>
-                  <Image height={249} width={539} className='img-fluid rounded' src={`${AssetsImagePath}/user-profile/post3.jpg`} itemProp='thumbnail' alt='gallery' />
+                  <Image height={249} width={539} className='img-fluid rounded' src={`${AssetsImagePath}/user-profile/post3.jpg`} itemProp='thumbnail' alt='gallery' unoptimized/>
                 </Col>
               </Row>
             </div>

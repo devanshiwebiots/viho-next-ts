@@ -28,7 +28,7 @@ const MailSidebar = () => {
               <div className='email-app-sidebar'>
                 <Media className='align-items-center'>
                   <div className='media-size-email'>
-                    <Image height={52} width={52} className='me-3 rounded-circle' src={`${AssetsImagePath}/user/user.png`} alt='' />
+                    <Image height={52} width={52} className='me-3 rounded-circle' src={`${AssetsImagePath}/user/user.png`} alt='' unoptimized/>
                   </div>
                   <Media body>
                     <Link href={`/users/userprofile`}>

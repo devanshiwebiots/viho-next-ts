@@ -11,7 +11,7 @@ const BrowserWidgetCard = () => {
       <Card className='browser-widget'>
         <CardBody className='media'>
           <div className='media-img'>
-            <Image src={`${AssetsImagePath}${item.img}`} alt='' width={80} height={80} />
+            <Image src={`${AssetsImagePath}${item.img}`} alt='' width={80} height={80} unoptimized/>
           </div>
           <Media body className=' align-self-center'>
             <div>

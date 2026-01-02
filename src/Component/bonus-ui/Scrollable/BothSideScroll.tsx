@@ -13,7 +13,7 @@ const BothSideScroll = () => {
         <CardBody>
           <ScrollBar className='scroll-vertical'>
             <div>
-              <Image src={`${AssetsImagePath}/banner/3.jpg`} alt='BothSide scroll image' height={600} width={903} />
+              <Image src={`${AssetsImagePath}/banner/3.jpg`} alt='BothSide scroll image' height={600} width={903} unoptimized/>
             </div>
           </ScrollBar>
         </CardBody>

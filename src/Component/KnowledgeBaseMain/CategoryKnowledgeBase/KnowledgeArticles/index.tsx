@@ -89,7 +89,7 @@ const KnowledgeArticles = () => {
             </Col>
           ))
         ) : (
-          <Image height={400} width={400} className='img-fluid second-search' src={`${AssetsImagePath}/search-not-found.png`} alt='' />
+          <Image height={400} width={400} className='img-fluid second-search' src={`${AssetsImagePath}/search-not-found.png`} alt='' unoptimized/>
         )}
       </Row>
     </Col>

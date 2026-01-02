@@ -14,7 +14,7 @@ const MainCard = () => {
         <div className='job-search'>
           <CardBody>
             <div className='d-flex'>
-              <Image height={40} width={40} className='  m-r-20' src={`${AssetsImagePath}/job-search/1.jpg`} alt='job-search' />
+              <Image height={40} width={40} className='  m-r-20' src={`${AssetsImagePath}/job-search/1.jpg`} alt='job-search' unoptimized/>
               <div className='flex-grow-1'>
                 <h6 className='f-w-600'>
                   <a href={Javascript}>Product Designer (UI/UX Designer)</a>

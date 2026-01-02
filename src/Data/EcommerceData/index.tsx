@@ -10,7 +10,7 @@ const style = {
 const style2 = { width: 60, fontSize: 14, padding: 4 };
 export const productData = [
   {
-    image: <Image src={`${AssetsImagePath}/ecommerce/product-table-1.png`} height={40} width={40} style={style} alt='' />,
+    image: <Image src={`${AssetsImagePath}/ecommerce/product-table-1.png`} height={40} width={40} style={style} alt='' unoptimized/>,
     Details: (
       <div>
         <h6>Red Lipstick</h6>
@@ -37,7 +37,7 @@ export const productData = [
     ),
   },
   {
-    image: <Image height={40} width={40} src={`${AssetsImagePath}/ecommerce/product-table-2.png`} style={style} alt='' />,
+    image: <Image height={40} width={40} src={`${AssetsImagePath}/ecommerce/product-table-2.png`} style={style} alt='' unoptimized/>,
     Details: (
       <div>
         <h6>Brown Lipstick</h6>
@@ -64,7 +64,7 @@ export const productData = [
     ),
   },
   {
-    image: <Image height={40} width={40} src={`${AssetsImagePath}/ecommerce/product-table-3.png`} style={style} alt='' />,
+    image: <Image height={40} width={40} src={`${AssetsImagePath}/ecommerce/product-table-3.png`} style={style} alt='' unoptimized/>,
     Details: (
       <div>
         <h6>Yellow Lipstick</h6>
@@ -91,7 +91,7 @@ export const productData = [
     ),
   },
   {
-    image: <Image height={40} width={40} src={`${AssetsImagePath}/ecommerce/product-table-4.png`} style={style} alt='' />,
+    image: <Image height={40} width={40} src={`${AssetsImagePath}/ecommerce/product-table-4.png`} style={style} alt='' unoptimized/>,
     Details: (
       <div>
         <h6>Green Lipstick</h6>
@@ -118,7 +118,7 @@ export const productData = [
     ),
   },
   {
-    image: <Image height={40} width={40} src={`${AssetsImagePath}/ecommerce/product-table-5.png`} style={style} alt='' />,
+    image: <Image height={40} width={40} src={`${AssetsImagePath}/ecommerce/product-table-5.png`} style={style} alt='' unoptimized/>,
     Details: (
       <div>
         <h6>Pink Lipstick</h6>
@@ -145,7 +145,7 @@ export const productData = [
     ),
   },
   {
-    image: <Image height={40} width={40} src={`${AssetsImagePath}/ecommerce/product-table-6.png`} style={style} alt='' />,
+    image: <Image height={40} width={40} src={`${AssetsImagePath}/ecommerce/product-table-6.png`} style={style} alt='' unoptimized/>,
     Details: (
       <div>
         <h6>Blue Lipstick</h6>
@@ -172,7 +172,7 @@ export const productData = [
     ),
   },
   {
-    image: <Image height={40} width={40} src={`${AssetsImagePath}/ecommerce/product-table-2.png`} style={style} alt='' />,
+    image: <Image height={40} width={40} src={`${AssetsImagePath}/ecommerce/product-table-2.png`} style={style} alt='' unoptimized/>,
     Details: (
       <div>
         <h6>Grey Lipstick</h6>
@@ -199,7 +199,7 @@ export const productData = [
     ),
   },
   {
-    image: <Image height={40} width={40} src={`${AssetsImagePath}/ecommerce/product-table-3.png`} style={style} alt='' />,
+    image: <Image height={40} width={40} src={`${AssetsImagePath}/ecommerce/product-table-3.png`} style={style} alt='' unoptimized/>,
     Details: (
       <div>
         <h6>Black Lipstick</h6>

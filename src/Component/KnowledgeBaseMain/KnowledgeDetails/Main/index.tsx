@@ -11,7 +11,7 @@ const MainCard = () => {
         <div className='blog-single'>
           <div className='blog-box'>
             <Card>
-              <Image height={200} width={900} className='img-fluid w-100' src={`${AssetsImagePath}/knowledgebase/1.jpg`} priority alt='blog-main' />
+              <Image height={200} width={900} className='img-fluid w-100' src={`${AssetsImagePath}/knowledgebase/1.jpg`} priority alt='blog-main' unoptimized/>
             </Card>
             <Card>
               <CardBody>

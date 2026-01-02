@@ -62,7 +62,7 @@ const AllTabs = () => {
           <Col xl='6 ' className='box-col-6 search-banner'>
             <Card className='mb-0'>
               <div className='blog-box blog-shadow'>
-                <Image width={735} height={459} className='img-fluid bg-img-cover' src={`${AssetsImagePath}/blog/blog.jpg`} alt='' />
+                <Image width={735} height={459} className='img-fluid bg-img-cover' src={`${AssetsImagePath}/blog/blog.jpg`} alt='' unoptimized/>
                 <div className='blog-details'>
                   <p className='digits'>25 July 2023</p>
                   <h4>People just do not do it anymore. We have to change that. Sometimes the simplest things are the most profound.</h4>

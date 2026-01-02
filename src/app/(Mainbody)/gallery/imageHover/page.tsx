@@ -4,7 +4,7 @@ import Breadcrumbs from '@/CommonComponents/BreadCrumb';
 import CardHeaderCommon from '@/CommonComponents/CardHeaderCommon';
 import { AssetsImagePath } from '@/Constant';
 import { HoverEffectsData, HoverImageData } from '@/Data/Gallery';
-import { Image } from 'react-bootstrap';
+import Image from 'next/image';
 import { Card, CardBody, Col, Container, Row } from 'reactstrap';
 
 const HoverEffect = () => {
@@ -23,7 +23,7 @@ const HoverEffect = () => {
                       <Col sm='6' md='3' key={index}>
                         <figure itemProp='associatedMedia' className={`img-hover hover-${item}`} key={i}>
                           <div>
-                            <Image height={220} width={347} className='img-thumbnail' src={`${AssetsImagePath}/${image}`} alt='' />
+                            <Image height={220} width={347} className='img-thumbnail' src={`${AssetsImagePath}/${image}`} alt='' unoptimized/>
                           </div>
                         </figure>
                       </Col>

@@ -17,7 +17,7 @@ const BlogSingle = () => {
           <Col sm='12'>
             <div className='blog-single'>
               <div className='blog-box blog-details'>
-                <Image src={`${AssetsImagePath}/blog/blog-single.jpg`} height={744} width={1561} alt='' />
+                <Image src={`${AssetsImagePath}/blog/blog-single.jpg`} height={744} width={1561} alt='' unoptimized/>
                 <Card>
                   <CardBody>
                     <div className='blog-details'>

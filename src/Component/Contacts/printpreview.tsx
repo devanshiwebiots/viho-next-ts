@@ -6,7 +6,7 @@ const printpreview = ({ selectedUser }: PrintPreviewprops) => {
   return (
     <div className='profile-mail pt-0' id='DivIdToPrint'>
       <div className='d-flex align-items-center'>
-        <Image height={100} width={100} className='img-100 img-fluid m-r-20 rounded-circle' id='updateimg' src={`${selectedUser.avatar}`} alt='' />
+        <Image height={100} width={100} className='img-100 img-fluid m-r-20 rounded-circle' id='updateimg' src={`${selectedUser.avatar}`} alt='' unoptimized/>
         <div className='flex-grow-1 mt-0'>
           <h5>
             <span id='printname'>{selectedUser.name} </span>

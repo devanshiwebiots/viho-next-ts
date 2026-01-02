@@ -10,7 +10,7 @@ const Comments1 = ({ Image3 }: Comment1Props) => {
     <>
       <li>
         <Media>
-          {Image3 ? <Image height={100} width={100} src={`${AssetsImagePath}/blog/4.jpg`} alt='' /> : <Image height={100} width={100} src={`${AssetsImagePath}/blog/comment.jpg`} alt='' />}
+          {Image3 ? <Image height={100} width={100} src={`${AssetsImagePath}/blog/4.jpg`} alt='' unoptimized/> : <Image height={100} width={100} src={`${AssetsImagePath}/blog/comment.jpg`} alt='' unoptimized/>}
           <Media body>
             <Row>
               <Col md='4' className='xl-100'>

@@ -95,7 +95,7 @@ export const SupportTicketTableData: SupportTicketColumnsProps[] = [
   {
     image: (
       <Media>
-        <Image height={30} width={30} className='rounded-circle img-30 me-3 media' src={`${AssetsImagePath}/user/1.jpg`} alt='Generic placeholder image' />
+        <Image height={30} width={30} className='rounded-circle img-30 me-3 media' src={`${AssetsImagePath}/user/1.jpg`} alt='Generic placeholder image' unoptimized/>
         <Media body className='align-self-center'>
           <div>Airi Satou</div>
         </Media>
@@ -118,7 +118,7 @@ export const SupportTicketTableData: SupportTicketColumnsProps[] = [
   {
     image: (
       <Media>
-        <Image height={30} width={30} className='rounded-circle img-30 me-3 media' src={`${AssetsImagePath}/user/2.png`} alt='Generic placeholder image' />
+        <Image height={30} width={30} className='rounded-circle img-30 me-3 media' src={`${AssetsImagePath}/user/2.png`} alt='Generic placeholder image' unoptimized/>
         <Media body className='align-self-center'>
           <div>Ashton Cox</div>
         </Media>
@@ -141,7 +141,7 @@ export const SupportTicketTableData: SupportTicketColumnsProps[] = [
   {
     image: (
       <Media>
-        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/3.jpg`} alt='Generic placeholder image' />
+        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/3.jpg`} alt='Generic placeholder image' unoptimized/>
         <Media body className='align-self-center'>
           <div>Bradley Greer</div>
         </Media>
@@ -164,7 +164,7 @@ export const SupportTicketTableData: SupportTicketColumnsProps[] = [
   {
     image: (
       <Media>
-        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/4.jpg`} alt='Generic placeholder image' />
+        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/4.jpg`} alt='Generic placeholder image' unoptimized/>
         <Media body className='align-self-center'>
           <div>Brielle Williamson</div>
         </Media>
@@ -187,7 +187,7 @@ export const SupportTicketTableData: SupportTicketColumnsProps[] = [
   {
     image: (
       <Media>
-        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/5.jpg`} alt='Generic placeholder image' />
+        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/5.jpg`} alt='Generic placeholder image' unoptimized/>
         <Media body className='align-self-center'>
           <div>Caesar Vance</div>
         </Media>
@@ -210,7 +210,7 @@ export const SupportTicketTableData: SupportTicketColumnsProps[] = [
   {
     image: (
       <Media>
-        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/6.jpg`} alt='Generic placeholder image' />
+        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/6.jpg`} alt='Generic placeholder image' unoptimized/>
         <Media body className='align-self-center'>
           <div>Cedric Kelly</div>
         </Media>
@@ -233,7 +233,7 @@ export const SupportTicketTableData: SupportTicketColumnsProps[] = [
   {
     image: (
       <Media>
-        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/7.jpg`} alt='Generic placeholder image' />
+        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/7.jpg`} alt='Generic placeholder image' unoptimized/>
         <Media body className='align-self-center'>
           <div>Charde Marshall</div>
         </Media>
@@ -256,7 +256,7 @@ export const SupportTicketTableData: SupportTicketColumnsProps[] = [
   {
     image: (
       <Media>
-        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/8.jpg`} alt='Generic placeholder image' />
+        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/8.jpg`} alt='Generic placeholder image' unoptimized/>
         <Media body className='align-self-center'>
           <div>Colleen Hurst</div>
         </Media>
@@ -279,7 +279,7 @@ export const SupportTicketTableData: SupportTicketColumnsProps[] = [
   {
     image: (
       <Media>
-        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/9.jpg`} alt='Generic placeholder image' />
+        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/9.jpg`} alt='Generic placeholder image' unoptimized/>
         <Media body className='align-self-center'>
           <div>Dai Rios</div>
         </Media>
@@ -302,7 +302,7 @@ export const SupportTicketTableData: SupportTicketColumnsProps[] = [
   {
     image: (
       <Media>
-        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/10.jpg`} alt='Generic placeholder image' />
+        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/10.jpg`} alt='Generic placeholder image' unoptimized/>
         <Media body className='align-self-center'>
           <div>Garrett Winters</div>
         </Media>
@@ -325,7 +325,7 @@ export const SupportTicketTableData: SupportTicketColumnsProps[] = [
   {
     image: (
       <Media>
-        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/11.png`} alt='Generic placeholder image' />
+        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/11.png`} alt='Generic placeholder image' unoptimized/>
         <Media body className='align-self-center'>
           <div>Gloria Little</div>
         </Media>
@@ -348,7 +348,7 @@ export const SupportTicketTableData: SupportTicketColumnsProps[] = [
   {
     image: (
       <Media>
-        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/12.png`} alt='Generic placeholder image' />
+        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/12.png`} alt='Generic placeholder image' unoptimized/>
         <Media body className='align-self-center'>
           <div>Haley Kennedy</div>
         </Media>
@@ -371,7 +371,7 @@ export const SupportTicketTableData: SupportTicketColumnsProps[] = [
   {
     image: (
       <Media>
-        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/10.jpg`} alt='Generic placeholder image' />
+        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/10.jpg`} alt='Generic placeholder image' unoptimized/>
         <Media body className='align-self-center'>
           <div>Jena Gaines</div>
         </Media>
@@ -394,7 +394,7 @@ export const SupportTicketTableData: SupportTicketColumnsProps[] = [
   {
     image: (
       <Media>
-        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/3.png`} alt='Generic placeholder image' />
+        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/3.png`} alt='Generic placeholder image' unoptimized/>
         <Media body className='align-self-center'>
           <div>Michael Silva</div>
         </Media>
@@ -417,7 +417,7 @@ export const SupportTicketTableData: SupportTicketColumnsProps[] = [
   {
     image: (
       <Media>
-        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/1.jpg`} alt='Generic placeholder image' />
+        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/1.jpg`} alt='Generic placeholder image' unoptimized/>
         <Media body className='align-self-center'>
           <div>Quinn Flynn</div>
         </Media>
@@ -440,7 +440,7 @@ export const SupportTicketTableData: SupportTicketColumnsProps[] = [
   {
     image: (
       <Media>
-        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/10.jpg`} alt='Generic placeholder image' />
+        <Image height={30} width={30} className='rounded-circle img-30 me-3' src={`${AssetsImagePath}/user/10.jpg`} alt='Generic placeholder image' unoptimized/>
         <Media body className='align-self-center'>
           <div>Sonya Frost</div>
         </Media>

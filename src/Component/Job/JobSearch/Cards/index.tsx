@@ -23,7 +23,7 @@ const CardsClass = () => {
               <div className='job-search'>
                 <CardBody>
                   <div className='d-flex'>
-                    <Image width={40} height={40} className=' m-r-20' src={`${AssetsImagePath}/${item.logo}`} alt='job' />
+                    <Image width={40} height={40} className=' m-r-20' src={`${AssetsImagePath}/${item.logo}`} alt='job' unoptimized/>
                     <div className='flex-grow-1'>
                       <h6>
                         <Link href={`/apps/job/job-details`}>{item.job_name}</Link>

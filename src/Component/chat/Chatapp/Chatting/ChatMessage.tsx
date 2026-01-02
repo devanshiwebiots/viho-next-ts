@@ -52,7 +52,7 @@ const ChatMessage = () => {
               return (
                 <ListGroupItem key={id} className={` ${item.sender !== currentUser.id ? "" : "clearfix"}`}>
                   <div className={`message my-message ${item.sender !== currentUser.id ? "" : "pull-right other-message"}`}>
-                    <Image width={30} height={30} alt={"user"} src={`${AssetsImagePath}/${participators.thumb}`} className={`rounded-circle ${item.sender !== currentUser.id ? "float-start" : "float-end"} chat-user-img img-30 h-auto`} />
+                    <Image width={30} height={30} alt={"user"} src={`${AssetsImagePath}/${participators.thumb}`} className={`rounded-circle ${item.sender !== currentUser.id ? "float-start" : "float-end"} chat-user-img img-30 h-auto`} unoptimized/>
                     <div className='message-data text-end'>
                       <span className='message-data-time'>{item.time}</span>
                     </div>

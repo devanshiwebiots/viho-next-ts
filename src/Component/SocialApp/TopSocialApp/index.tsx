@@ -13,7 +13,7 @@ const TopSocialApp = () => {
     <Col sm='12'>
       <Card className='profile-header bg-image' style={{ backgroundImage: `url(../assets/images/user-profile/bg-profile.jpg)`, backgroundRepeat: 'center center', backgroundPosition: 'cover' }}>
         <div className='profile-img-wrrap'>
-          <Image height={100} width={100} style={{ backgroundSize: 'cover', backgroundPosition: 'center', display: 'block' }} className='img-fluid bg-img-cover' src={`${AssetsImagePath}/user-profile/bg-profile.jpg`} alt='' />
+          <Image height={100} width={100} style={{ backgroundSize: 'cover', backgroundPosition: 'center', display: 'block' }} className='img-fluid bg-img-cover' src={`${AssetsImagePath}/user-profile/bg-profile.jpg`} alt='' unoptimized/>
         </div>
         <div className='userpro-box'>
           <div className='img-wrraper'>

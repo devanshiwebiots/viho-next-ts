@@ -35,7 +35,7 @@ const ProductSidebar = () => {
                   <CardBody className='filter-cards-view animate-chk'>
                     <Category />
                     <div className='product-filter text-center mt-2'>
-                      <Image height={300} width={198} className='img-fluid banner-product m-auto' src={`${AssetsImagePath}/ecommerce/banner.jpg`} alt='' />
+                      <Image height={300} width={198} className='img-fluid banner-product m-auto' src={`${AssetsImagePath}/ecommerce/banner.jpg`} alt='' unoptimized/>
                     </div>
                   </CardBody>
                 </div>
